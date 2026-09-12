@@ -1,0 +1,12 @@
+Use case: illustration-story
+Asset type: supporting website illustration for N-Lang, a Dutch-first beginner programming language
+Primary request: three diverse secondary-school students collaborating around an interactive code exhibit, arranging translucent orange tiles while a branching syntax structure rises from the table like a clear museum model
+Scene/backdrop: contemporary science museum workshop at dusk, dark graphite walls and a warm pool of light around the table
+Subject: three teenagers with natural body language, focused and delighted rather than posing; the code objects are physical and understandable even without text
+Style/medium: same premium editorial 3D illustration language as a tactile museum diorama, clean silhouettes, subtle screen-print grain, slightly simplified faces
+Composition/framing: vertical 4:5 supporting image, full bodies and table visible, calm negative space around the group
+Lighting/mood: welcoming, intelligent, collaborative, playful without feeling childish
+Color palette: charcoal and off-white; brand orange dominates; restrained cobalt, teal and yellow appear only on a few teaching pieces and clothing details
+Materials/textures: translucent acrylic, matte fabric, painted metal, paper
+Constraints: no readable text, no letters, no numbers, no logos, no watermark
+Avoid: classroom stock-photo look, exaggerated cartoon expressions, neon cyberpunk, purple gradients, game rewards, floating UI panels

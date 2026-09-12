@@ -1,0 +1,12 @@
+Use case: stylized-concept
+Asset type: full-width website section illustration for N-Lang, a Dutch-first beginner programming language
+Primary request: an interactive science-museum light table after closing time where translucent physical code tiles visibly transform from a simple sequence into a branching abstract syntax tree and then into an orderly output stack
+Scene/backdrop: deep graphite museum room, the illuminated table is the scene, no interface frame
+Subject: tactile acrylic tiles, curved transparent guides, a branching tree-like construction, small mechanical rollers and a warm orange tulip-shaped aperture as a subtle recurring form
+Style/medium: premium editorial 3D illustration with tactile acrylic, screen-printed texture and soft cinematic depth; sophisticated enough for adults, inviting for young learners
+Composition/framing: wide landscape, low three-quarter overhead angle, one continuous left-to-right visual journey, generous clean edges for responsive cropping
+Lighting/mood: immediate, curious, hands-on, warm internal light with restrained reflections
+Color palette: charcoal and off-white; orange is dominant; small contained notes of cobalt, teal and yellow only inside the physical teaching pieces
+Materials/textures: translucent acrylic, matte painted metal, paper labels with no writing, lightly worn museum exhibit surface
+Constraints: no readable text, no letters, no numbers, no logo, no watermark; no fake terminal window or software UI
+Avoid: neon cyberpunk glow, purple AI gradients, childish clip art, glossy plastic toy look, floating gradient blobs
