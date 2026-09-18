@@ -30,6 +30,8 @@ Lees bij iedere taak in deze volgorde:
 
 N-Lang onderzoekt binnen een profielwerkstuk hoe programmeren toegankelijker kan worden voor Nederlandstalige beginners. Het technische product is een Nederlandstalige programmeertaal en bijbehorende gereedschappen. De exacte hoofdvraag, doelgroepafbakening, evaluatiemethode en officiële schoolcriteria zijn nog niet in dit dossier bevestigd; agents mogen die niet zelf invullen.
 
+De gebruiker heeft de technische richting verduidelijkt: zelf programmeren in Rust, eigen bytecode met een eigen VM én rechtstreekse WebAssembly-uitvoer. De tijdseis is gerapporteerd als 80 uur per leerling. Begin praktisch bij het [README-stappenplan](../../README.md); zie [planning](planning.md) voor de conceptverdeling en [onderzoekskader](onderzoekskader.md) voor de nog open school-/onderzoekseisen.
+
 ## Bronnen van waarheid
 
 | Onderwerp | Gezaghebbend bestand |

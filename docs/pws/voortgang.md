@@ -5,49 +5,53 @@ updated: 2026-09-18
 type: status
 status: active
 tags: [pws, status, planning]
-sources: [onderzoekskader.md, besluiten.md]
+sources: [onderzoekskader.md, besluiten.md, planning.md, ../../README.md]
 ---
 
 # Voortgang N-Lang-PWS
 
-- **Momentopname:** 2026-09-18
-- **Fase:** onderzoeksinfrastructuur en afbakening
-- **Algemene status:** basisstructuur ingericht; onderzoeksvraag en schoolvoorwaarden nog niet bevestigd
+- **Momentopname:** 2026-09-18.
+- **Fase:** projectinrichting en taal-/compilerontwerp; implementatie door leerlingen volgt.
+- **Productrichting:** compiler in Rust met twee eigen backends: eigen bytecode voor een eigen Rust-VM, en rechtstreeks gegenereerde WebAssembly voor de browser.
+- **Documentatiestatus:** startplan en structuur ingericht; aanvullende taal-/bytecode-/runtimekeuzes zijn concepten.
 
-Dit bestand is een korte actuele overdracht, geen historisch log. Historie staat in [`logboek.md`](../../logboek.md), [`werklog/`](werklog/README.md) en [`besluiten.md`](besluiten.md).
+Historie staat in [logboek](../../logboek.md) en [werklog](werklog/README.md).
 
 ## Afgerond
 
-- Repository bevat bestaande product- en ontwerpcontext in `PRODUCT.md` en `DESIGN.md`.
-- Een bindende agentwerkwijze voor PWS-documentatie is vastgelegd in `AGENTS.md`.
-- Een lokaal PWS-dossier met navigatie, onderzoekskader, voortgang, besluiten, bronnen en werklog is ingericht.
-- De contextaanpak is uitgewerkt in vijf genummerde systeempagina's voor autoriteit, navigatie, vastleggen, werkwijze en onderhoud.
-- Een inbox, bronnotitiemap, archief en set concrete voorbeelden zijn toegevoegd.
-- Het officiële tijdlog staat in `logboek.md`.
-- De persoonlijke Kennis-vault is expliciet buiten bereik van alle agents geplaatst.
-- De documentatieset is ingediend in [GitHub-PR #2](https://github.com/geinigegastcoding/N-Lang/pull/2).
+- Bestaand PWS-dossier, logboek en werkafspraken behouden.
+- [README](../../README.md) met concreet startpunt en mijlpalen.
+- [Modulemappen](../../src/README.md), twee codegen-backends, bytecode, VM, runtime, testplaatsen en minimale browserproef ingericht.
+- [Bibliotheekbeleid](../ontwikkeling/bibliotheken.md): kern zelf bouwen; alleen gerichte hulp voor algemene infrastructuur of Wasm-encoding overwegen.
+- [Taalvoorbeeld en conceptgrammatica](../taal/README.md), argumentbinding en foutgevallen beschreven.
+- [Architectuur](../ontwikkeling/architectuur.md), [bytecode/VM](../ontwikkeling/bytecode-en-vm.md), [directe Wasm-backend](../ontwikkeling/webassembly.md) en [testplan](../../tests/README.md) uitgewerkt.
+- [Planning](planning.md) met een begroting van 80 uur per leerling.
+- Officiële Rust-, taalstructuur- en Wasm-bronnen in het [bronnenregister](bronnenregister.md) vastgelegd.
+- Luna-subagents ingezet voor afgebakend brononderzoek, bibliotheekdocumentatie en review; bijdragen staan apart in het logboek.
 
-## Bezig
+## Nog niet geïmplementeerd
 
-- Geen inhoudelijke onderzoekstaak actief op het moment van deze momentopname.
+Er is nog geen Cargo-manifest, Rust-code, bytecodeformaat, VM, Wasm-generator, browserharnas of geautomatiseerde compilertest. Dit is bewust: de gebruiker wil dat de leerlingen alle programmatuur zelf schrijven. De huidige documentatie bewijst geen werkende taal.
 
-## Eerstvolgende acties
+## Eerstvolgende acties voor leerlingen
 
-1. Vul de officiële school-, begeleider- en inlevervoorwaarden in `onderzoekskader.md` in.
-2. Formuleer en bevestig de definitieve hoofdvraag en deelvragen.
-3. Definieer doelgroep, kernbegrippen en meetbare succescriteria.
-4. Kies een haalbare onderzoeksmethode en leg privacy/toestemming vast.
-5. Maak een hoofdstukindeling en koppel elk hoofdstuk aan vraag, methode of bewijs.
-6. Inventariseer betrouwbare literatuur over taalbarrières, programmeeronderwijs en localized programming languages.
-7. Koppel de bestaande technische modules en tests aan de te beantwoorden technische deelvraag.
+1. Bespreek de aanvullende syntaxisvoorstellen, het contextschema en de kleinste gedeelde taalset.
+2. Vul schoolrubric, deadline, doelgroep en definitieve hoofd-/deelvragen aan.
+3. Volg [aan de slag](../ontwikkeling/aan-de-slag.md); initialiseer zelf Cargo en schrijf één token-test.
+4. Bouw één toewijzing via de volledige eigen-bytecode-/VM-route.
+5. Laat vroeg een kleine rechtstreeks gegenereerde Wasm-module in een browser draaien.
+6. Ontwerp de gedeelde waarde-/objectafspraken en breid beide backends uit tot het voorbeeld.
+7. Voer technische tests uit en maak vóór deelnemersmetingen een passend evaluatieplan.
 
-## Blokkades en risico’s
+## Open keuzes en risico's
 
-- De officiële rubric, deadline, auteurs, begeleider en AI-regels ontbreken nog.
-- Zonder definitieve hoofdvraag kan niet worden vastgesteld welke productfuncties en metingen noodzakelijk zijn.
-- “Toegankelijkheid” is nog niet geoperationaliseerd; daardoor kan een effect nog niet valide worden gemeten.
-- Bestaande product- en ontwerpdocumenten zijn interne context en vormen geen onafhankelijke onderzoeksbronnen.
+- Officiële rubric, auteurs/teamgrootte, begeleider, deadline en AI-regels ontbreken nog.
+- Hoofdvraag, doelgroep, metingen en succescriteria zijn niet bevestigd.
+- Getal-/naambereik, gemengde argumentregels, bytecodeformaat en runtime-ABI zijn voorstellen.
+- Twee backends en een eigen VM zijn ambitieus. De 80-uursverdeling is een begroting, geen gegarandeerde doorlooptijd.
+- Extra taalconstructies en optimalisaties kunnen wachten; beide gevraagde uitvoerdoelen behoren tot de kernscope.
+- De bestaande website is buiten deze opdracht gehouden.
 
 ## Laatste overdracht
 
-De processtructuur is klaar om gebruikt te worden. De eerstvolgende sessie moet geen hoofdstuktekst of functionaliteit verzinnen, maar beginnen met het bevestigen van de open onderzoeksvoorwaarden hierboven.
+De leerlingen kunnen beginnen bij de README en de eerste kleine Rust-test. De documentatie houdt technische werking, onderzoeksclaims en werkelijk bestede leerlinguren gescheiden.

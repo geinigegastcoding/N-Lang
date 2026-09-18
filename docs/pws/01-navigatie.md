@@ -21,6 +21,7 @@ sources: [index.md]
 ## Onderzoeksdomein
 
 - [`onderzoekskader.md`](onderzoekskader.md) is de enige plek voor de actuele hoofdvraag, deelvragen, scope en geplande methode.
+- [`planning.md`](planning.md) begroot 80 uur per leerling; daadwerkelijke tijd staat alleen in het officiële logboek.
 - [`bronnenregister.md`](bronnenregister.md) is de centrale bibliografische administratie.
 - [`bronnen/`](bronnen/README.md) bevat kleine, herbruikbare notities over belangrijke bronnen.
 - `hoofdstukken/` bevat rapportteksten zodra zij bestaan; elk hoofdstuk linkt terug naar vragen en bronnen.
@@ -44,7 +45,9 @@ sources: [index.md]
 
 - `PRODUCT.md` beschrijft productcontext en open productkeuzes.
 - `DESIGN.md` beschrijft het visuele systeem van de website.
-- De mappen `lexer/`, `parser/`, `ast/`, `semantic/`, `compiler/`, `codegen/`, `diagnostics/`, `cli/`, `examples/` en `tests/` vormen het technische product en bewijs.
+- [`src/`](../../src/README.md) bevat de plaatsen voor eigen Rust-modules, inclusief twee codegen-backends, eigen bytecode en VM. Er is nog geen Rust-implementatie.
+- [`examples/`](../../examples/README.md), [`tests/`](../../tests/README.md) en [`browser/`](../../browser/README.md) zijn ingericht voor toekomstige voorbeelden en technische validatie.
+- [`docs/taal/`](../taal/README.md) beschrijft het concept; [de technische handleidingen](../README.md) leggen bouwroute, bibliotheken en backends uit.
 - Technische documentatie moet verwijzen naar concrete paden, tests en waar relevant een commit-ID.
 
 ## Regels voor vindbaarheid

@@ -1,0 +1,7 @@
+# Uitvoer van het toekomstige Rust-project en de compiler.
+/target/
+/build/
+/browser/pkg/
+
+# Rust Cargo.lock straks wel bewaren voor reproduceerbare builds.
+# Bestaande website- en editorbestanden hebben hun eigen afspraken.
