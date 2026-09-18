@@ -65,6 +65,15 @@ Controleer de relatieve documentlinks, PWS-metadata, navigatie, samenhang tussen
 - `git diff --check` meldde geen whitespacefouten. Git meldde wel bestaande LF/CRLF-normalisatie-informatie; dit is geen testresultaat of inhoudsfout.
 - Nog te registreren: laatste controles, commit(s), PR en werkelijke eindtijd.
 
+## Controle en Git-afhandeling
+
+- Na staging vond `git diff --cached --check` extra lege eindregels in tien nieuwe bron-/sessiebestanden. Alleen die nieuwe bestanden zijn op eindregel genormaliseerd; daarna slaagde de staged diffcheck. De eerdere unstaged diffcheck had die toen nog ongetrackte bestanden niet beoordeeld.
+- De definitieve in-memory Node-documentcontrole via PowerShell controleert relatieve links en ankers buiten codeblokken, verplichte frontmatter, lokale bronpaden en de numerieke urenrijen. Na aansluiten op `main`: **75 Markdownbestanden, 331 relatieve links, 29 PWS-metadata-sets en 58 lokale bronpaden; geen fouten; 80 begrote uren**. Geen Rust-/Wasm-implementatiebestanden aangemaakt.
+- Inhoud vastgelegd in `d92f165` op `codex/compiler-bytecode-wasm-opzet`; actuele `main` zonder conflict samengevoegd in `f0cbfe6`. Bestaande Obsidian- en leerlingnotities zijn behouden en toegevoegd aan de navigatie.
+- Gebruikerswijzigingen in `AGENTS.md` en de vier gestagede `.idea/`-bestanden zijn voor de merge tijdelijk in een gerichte stash bewaard en daarna met hun indexstatus hersteld. Git normaliseerde daarbij de regeleindes van `AGENTS.md`; de oorspronkelijke byte-inhoud is teruggezet nadat de SHA-256 van de genormaliseerde kandidaat exact overeenkwam met de vóór de merge gemeten hash. De vier IDE-bestanden behielden ook hun hashes. Deze gebruikersbestanden zijn niet gecommit.
+- Een automatische controle weigerde het verwijderen van de lege, tijdens de koerswijziging overbodig geworden tijdelijke map `src/wasm/`, met alleen de melding `blocked by policy`. Geen omweg gebruikt; de lege map blijft lokaal staan en bevat geen Git-bestanden. De geldige backend staat in `src/codegen/wasm/`.
+- Eén poging om het in-memory controlescript samen te stellen had een JavaScript-quotingfout; er is toen niets uitgevoerd. De gecorrigeerde controle is daarna werkelijk uitgevoerd met bovenstaand resultaat.
+
 ## Resultaat en open punten
 
 De gevraagde opzet is inhoudelijk uitgewerkt. Implementatie, hoofd-/deelvragen, rubric, doelgroep, precieze syntaxiskeuzes, bytecodeformaat en runtime-ABI blijven expliciet open. De eindcontrole en PR-afhandeling volgen nog.

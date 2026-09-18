@@ -62,6 +62,11 @@ sources: []
 
 De technische documenten beschrijven nog te bouwen onderdelen. Zij zijn geen vervanging voor de open onderzoeksvragen of echte testresultaten.
 
+## Behouden leerlingnotities
+
+- [Oorspronkelijke syntaxisideeën](Ideeen.md) — bestaand idee op de hoofdbranch; de nieuwste expliciete taalopdracht gaat voor.
+- [Leerlingnotitie van 18 september](<Logboek Maarten/18-09-2026.md>) — bestaande persoonlijke procesnotitie, ongewijzigd behouden. Het centrale [logboek](../../logboek.md) blijft de officiële registratie.
+
 ## Navigatieregel
 
 Een duurzame notitie is pas volledig opgenomen wanneer zij vanaf deze index of een direct gelinkte themapagina vindbaar is. Tijdelijke inboxnotities zijn de enige uitzondering en moeten de status `needs-review` dragen.
