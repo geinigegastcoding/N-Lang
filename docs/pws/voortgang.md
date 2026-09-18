@@ -25,6 +25,7 @@ Dit bestand is een korte actuele overdracht, geen historisch log. Historie staat
 - Een inbox, bronnotitiemap, archief en set concrete voorbeelden zijn toegevoegd.
 - Het officiële tijdlog staat in `logboek.md`.
 - De persoonlijke Kennis-vault is expliciet buiten bereik van alle agents geplaatst.
+- De documentatieset is ingediend in [GitHub-PR #2](https://github.com/geinigegastcoding/N-Lang/pull/2).
 
 ## Bezig
 

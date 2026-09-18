@@ -74,4 +74,5 @@ sources: []
 - Kopieer geen grote tooluitvoer; vat samen en verwijs naar reproduceerbare commando’s of artefacten.
 - Vermeld bronnen in `../bronnenregister.md` en blijvende keuzes in `../besluiten.md`.
 - Vul begin- en eindtijd pas met gemeten waarden in. Gebruik `onbekend` met reden als meten onmogelijk was.
+- Zet de sessiestatus na afronding van `active` op `complete`.
 - Voeg na afronding precies één samenvattende regel toe aan het officiële logboek.

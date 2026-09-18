@@ -114,7 +114,7 @@ title: Duidelijke titel
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 type: system | research | source | decision | status | session | chapter | example | archive
-status: draft | active | needs-review | superseded | archived
+status: draft | active | needs-review | complete | superseded | archived
 tags: [pws, relevant-onderwerp]
 sources: []
 ---

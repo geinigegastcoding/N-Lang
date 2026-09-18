@@ -3,7 +3,7 @@ title: Werksessie — PWS-documentatiestelsel
 created: 2026-09-18
 updated: 2026-09-18
 type: session
-status: active
+status: complete
 tags: [pws, worklog, documentation, governance]
 sources: [../../../AGENTS.md, ../README.md, ../../../PRODUCT.md, ../../../DESIGN.md]
 ---
@@ -14,8 +14,8 @@ sources: [../../../AGENTS.md, ../README.md, ../../../PRODUCT.md, ../../../DESIGN
 - **Uitvoerder:** Codex (`/root`)
 - **Categorie:** beheer en schrijven
 - **Begintijd:** 2026-09-18 14:30 +02:00
-- **Eindtijd:** wordt bij afronding ingevuld
-- **Verstreken tijd:** wordt bij afronding berekend
+- **Eindtijd:** 2026-09-18 14:47 +02:00
+- **Verstreken tijd:** 17 min
 - **Opdracht:** maak een `AGENTS.md` met volledige PWS-documentatiestijl, gestructureerde lokale werkregistratie en een strikt verbod op toegang tot de persoonlijke Kennis-vault; houd een specifiek `logboek.md` bij en lever het werk via een GitHub-PR op.
 - **Beoogd resultaat:** een direct bruikbaar en controleerbaar PWS-dossier dat toekomstige agents consequent bijhouden.
 
@@ -82,6 +82,7 @@ Er worden geen inhoudelijke onderzoeksresultaten, schoolcriteria of hoofdvragen 
 - Frontmattercontrole over 20 Markdownbestanden onder `docs/pws/`: geslaagd; alle verplichte velden zijn aanwezig.
 - Staged-bestandscontrole: uitsluitend `AGENTS.md`, `logboek.md` en `docs/pws/` zijn voor deze wijziging opgenomen; de ongerelateerde, niet-getraceerde map `.idea/` is buiten de wijziging gelaten.
 - Geen producttests uitgevoerd: de wijziging bestaat alleen uit Markdowndocumentatie en raakt geen broncode of runtimegedrag.
+- GitHub CLI: branch `codex/docs` gepusht en [PR #2](https://github.com/geinigegastcoding/N-Lang/pull/2) succesvol geopend tegen `main`.
 
 ## Problemen, beperkingen en risico’s
 
@@ -90,6 +91,9 @@ Er worden geen inhoudelijke onderzoeksresultaten, schoolcriteria of hoofdvragen 
 
 ## Vervolg
 
-- Controles uitvoeren en dit verslag plus `logboek.md` afronden.
-- Wijzigingen committen, pushen en via GitHub CLI als PR indienen.
 - In een volgende inhoudelijke sessie eerst de open school- en onderzoekseisen bevestigen.
+
+## Pull request
+
+- [PR #2 — docs: richt volledig PWS-documentatiestelsel in](https://github.com/geinigegastcoding/N-Lang/pull/2)
+- Eerste documentatiecommit: `caecda4`.
