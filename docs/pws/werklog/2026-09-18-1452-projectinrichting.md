@@ -3,7 +3,7 @@ title: Projectinrichting voor een eigen Rust-compiler met twee backends
 created: 2026-09-18
 updated: 2026-09-18
 type: session
-status: active
+status: complete
 tags: [pws, inrichting, rust, taalontwerp, planning]
 sources: [../../../AGENTS.md, ../../../PRODUCT.md, ../onderzoekskader.md]
 ---
@@ -14,7 +14,7 @@ sources: [../../../AGENTS.md, ../../../PRODUCT.md, ../onderzoekskader.md]
 
 - Uitvoerder: Codex (`/root`), met twee door de gebruiker gevraagde Luna-subagents voor afgebakend bronnen- en bibliotheekonderzoek.
 - Begin: 2026-09-18 14:52:49 +02:00, Europe/Amsterdam, rechtstreeks uit de systeemklok.
-- Einde en verstreken tijd: nog niet afgerond.
+- Einde van inhoudelijk werk en PR-controle: 2026-09-18 15:38:42 +02:00, Europe/Amsterdam. Gemeten duur: 2753 seconden, weergegeven als 46 minuten. Geen bekende onderbrekingen afgetrokken.
 - Git-basis: `2e339bbd3c7b1a7bdc628722c8ada4ef78a79ad5`, branch `codex/docs`.
 - Bestaande wijzigingen: vier reeds gestagede `.idea/`-bestanden; blijven onaangeroerd.
 - Opdracht bij start: documenteer en richt een Nederlandstalige taal in Rust in; leerlingen schrijven alle programmatuur zelf. Het meegeleverde JavaScript-fragment werd aanvankelijk door de hoofdagent als doeltaal opgevat. Latere expliciete verduidelijkingen hebben die interpretatie vervangen; zie hieronder.
@@ -63,7 +63,7 @@ Controleer de relatieve documentlinks, PWS-metadata, navigatie, samenhang tussen
 - Rechtstreeks gemeten: `rustc 1.96.1 (31fca3adb 2026-06-26)`, `cargo 1.96.1 (356927216 2026-06-26)`, Node `v24.14.0`.
 - Eerste documentcontrole: 73 Markdownbestanden, 321 relatieve verwijzingen en 29 gewijzigde PWS-frontmattersets bekeken; alleen het hierboven genoemde oude ankerprobleem gevonden. Uren: 80. Geen `.rs` of `Cargo.toml` en geen nieuwe `.js`, `.ts`, `.wasm` of `.nlbc` gevonden.
 - `git diff --check` meldde geen whitespacefouten. Git meldde wel bestaande LF/CRLF-normalisatie-informatie; dit is geen testresultaat of inhoudsfout.
-- Nog te registreren: laatste controles, commit(s), PR en werkelijke eindtijd.
+- Laatste controle en PR staan hieronder geregistreerd; afsluitende vastlegging wordt als aparte documentatiecommit toegevoegd.
 
 ## Controle en Git-afhandeling
 
@@ -76,4 +76,10 @@ Controleer de relatieve documentlinks, PWS-metadata, navigatie, samenhang tussen
 
 ## Resultaat en open punten
 
-De gevraagde opzet is inhoudelijk uitgewerkt. Implementatie, hoofd-/deelvragen, rubric, doelgroep, precieze syntaxiskeuzes, bytecodeformaat en runtime-ABI blijven expliciet open. De eindcontrole en PR-afhandeling volgen nog.
+De gevraagde opzet is afgerond en gepubliceerd in [PR #4](https://github.com/geinigegastcoding/N-Lang/pull/4), van `codex/compiler-bytecode-wasm-opzet` naar `main`. De PR is geopend en aan deze Codex-taak gekoppeld; GitHub meldde bij controle `OPEN` en `MERGEABLE`. De gecontroleerde PR-bestandslijst bevat geen wijzigingen aan `AGENTS.md`, `.idea/`, bestaande websitecode of bestaande leerling-/Obsidian-notities.
+
+De afsluitende controle na de logboekregel telde **333 relatieve verwijzingen**, 75 Markdownbestanden, 29 PWS-metadata-sets en 58 lokale bronpaden; alles geldig. De begroting blijft 80 uur per leerling.
+
+Gewijzigde gebieden: README/productcontext; technische handleidingen, taalconcept en voorbeeld; module- en testplaatsen; PWS-planning, bronnen, besluiten, status, navigatie, werklogs en officieel logboek. De documentatiecontrole en Git-diffcontrole zijn geslaagd. Er zijn geen compiler- of browsertests uitgevoerd, omdat er bewust geen implementatie is geschreven.
+
+Implementatie, hoofd-/deelvragen, rubric, doelgroep, precieze syntaxiskeuzes, bytecodeformaat en runtime-ABI blijven leerling-/begeleiderswerk. Begin bij `README.md` en `docs/ontwikkeling/aan-de-slag.md`. Alle agenttijd is apart geregistreerd en telt niet als gerealiseerde leerlingtijd.

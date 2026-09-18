@@ -55,3 +55,5 @@ Er is nog geen Cargo-manifest, Rust-code, bytecodeformaat, VM, Wasm-generator, b
 ## Laatste overdracht
 
 De leerlingen kunnen beginnen bij de README en de eerste kleine Rust-test. De documentatie houdt technische werking, onderzoeksclaims en werkelijk bestede leerlinguren gescheiden.
+
+De opzet staat in [PR #4](https://github.com/geinigegastcoding/N-Lang/pull/4). De documentatie- en diffcontroles zijn geslaagd; de compiler en beide backends zijn uitdrukkelijk nog leerlingwerk.
