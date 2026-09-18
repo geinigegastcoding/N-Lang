@@ -73,4 +73,4 @@ In [`voorbeelden/`](voorbeelden/README.md) staan concreet ingevulde voorbeelden 
 
 ## Harde grens
 
-De persoonlijke map `C:\Users\Daniël\Desktop\Codex\Kennis` hoort niet bij dit dossier en mag door agents niet worden geopend, gelezen, doorzocht of gewijzigd. Benodigde informatie moet door de gebruiker bewust in deze repository of het gesprek worden aangeleverd.
+Alle projectcontext staat onder de dynamisch bepaalde repositoryroot (`git rev-parse --show-toplevel`). Persoonlijke kennisbanken of context-vaults buiten de repository horen niet bij dit dossier en mogen door agents niet worden geopend, gelezen, doorzocht of gewijzigd. Benodigde informatie moet door de eigenaar bewust in deze repository of het gesprek worden aangeleverd.

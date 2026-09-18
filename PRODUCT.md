@@ -45,7 +45,7 @@ N-Lang is being developed as a practical component of a Dutch school research pr
 ## Evidence on Hand
 
 - Repository README: `README.md`.
-- Logo: `C:\Users\Daniël\Desktop\Codex\projecten\Politieke beweging campagne plan\N-Lang.png`.
+- Logo: repositorybestand `website/public/assets/n-lang-logo.webp`; het oorspronkelijke beeld is door de projecteigenaar aangeleverd.
 - User-provided visual references: two Mobbin section links and two screenshot attachments.
 - Referenced PWS conversation: `6a29957f-21dc-83eb-8c5e-e6b440c64834`.
 - Mobbin MCP research covering dark developer tooling, product-in-use previews, and playful learning-oriented sections.

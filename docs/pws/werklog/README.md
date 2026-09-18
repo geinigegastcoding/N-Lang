@@ -14,7 +14,7 @@ Deze map bevat één gedetailleerd verslag per niet-triviale werksessie. Het off
 
 ## Bestandsnaam
 
-Gebruik `YYYY-MM-DD-HHMM-korte-naam.md`, gebaseerd op de lokale begintijd in `Europe/Amsterdam`. Gebruik bij gelijktijdige sessies een extra unieke slug.
+Gebruik `YYYY-MM-DD-HHMM-korte-naam.md`, gebaseerd op de lokale begintijd van de uitvoerder. Noteer in het bestand ook de numerieke UTC-offset. Gebruik bij gelijktijdige sessies een extra unieke slug.
 
 ## Verplicht sjabloon
 

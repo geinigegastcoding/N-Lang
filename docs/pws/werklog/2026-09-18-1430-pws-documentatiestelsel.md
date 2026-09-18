@@ -11,7 +11,7 @@ sources: [../../../AGENTS.md, ../README.md, ../../../PRODUCT.md, ../../../DESIGN
 # Werksessie: PWS-documentatiestelsel
 
 - **Datum:** 2026-09-18
-- **Uitvoerder:** Codex (`/root`)
+- **Uitvoerder:** Codex (hoofdagent)
 - **Categorie:** beheer en schrijven
 - **Begintijd:** 2026-09-18 14:30 +02:00
 - **Eindtijd:** 2026-09-18 14:47 +02:00
@@ -56,7 +56,7 @@ Er worden geen inhoudelijke onderzoeksresultaten, schoolcriteria of hoofdvragen 
 
 - [`PWS-D001`](../besluiten.md#pws-d001--zelfstandig-pws-dossier-binnen-de-repository): zelfstandig PWS-dossier binnen de repository.
 - [`PWS-D002`](../besluiten.md#pws-d002--één-officieel-logboek-met-gedetailleerde-sessieverslagen): één officieel logboek met detailverslagen.
-- [`PWS-D003`](../besluiten.md#pws-d003--persoonlijke-kennis-vault-volledig-buiten-scope): persoonlijke Kennis-vault volledig buiten scope.
+- [`PWS-D003`](../besluiten.md#pws-d003--persoonlijke-context-vaults-volledig-buiten-scope): persoonlijke context-vaults volledig buiten scope.
 - [`PWS-D004`](../besluiten.md#pws-d004--vijf-vaste-systeemlagen-en-uniforme-metadata): vijf vaste systeemlagen en uniforme metadata.
 
 ## Gewijzigde bestanden

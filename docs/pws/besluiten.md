@@ -55,16 +55,16 @@ Dit register bevat keuzes met blijvende invloed op onderzoek, product, planning 
 - **Vervolgactie:** na iedere sessie begin, einde, duur, resultaat en validatie registreren.
 - **Vervangt/vervangen door:** niet van toepassing.
 
-## PWS-D003 — Persoonlijke Kennis-vault volledig buiten scope
+## PWS-D003 — Persoonlijke context-vaults volledig buiten scope
 
 - **Datum:** 2026-09-18
 - **Status:** aangenomen
 - **Eigenaar:** gebruiker; vastgelegd door Codex
-- **Context:** de gebruiker wil de organisatorische aanpak lokaal weerspiegelen, maar verbiedt agents in de persoonlijke vault te werken of die te betreden.
-- **Besluit:** `C:\Users\Daniël\Desktop\Codex\Kennis` mag door agents niet worden geopend, gelezen, doorzocht, gewijzigd of als invoer/uitvoer gebruikt.
+- **Context:** het project weerspiegelt een bruikbare organisatorische aanpak, maar persoonlijke kennisbanken van bijdragers horen niet bij de repository.
+- **Besluit:** geen enkele persoonlijke kennisbank, context-vault of notitiemap buiten de huidige Git-repository mag door agents worden geopend, gelezen, doorzocht, gewijzigd of als projectinvoer/-uitvoer gebruikt.
 - **Alternatieven:** read-only toegang; synchronisatie; rechtstreekse notities in de vault.
 - **Onderbouwing/bewijs:** expliciete gebruikersopdracht en duidelijke scheiding tussen privékennis en projectdossier.
-- **Gevolgen:** ontbrekende vaultinformatie moet door de gebruiker bewust in het project of gesprek worden aangeleverd.
+- **Gevolgen:** ontbrekende externe informatie moet door de eigenaar bewust in het project of gesprek worden aangeleverd; de regel werkt hetzelfde op iedere computer.
 - **Vervolgactie:** grens handhaven in iedere werksessie.
 - **Vervangt/vervangen door:** niet van toepassing.
 
@@ -73,10 +73,23 @@ Dit register bevat keuzes met blijvende invloed op onderzoek, product, planning 
 - **Datum:** 2026-09-18
 - **Status:** aangenomen
 - **Eigenaar:** gebruiker; vastgelegd door Codex
-- **Context:** de gebruiker wil de bewezen ordeningswijze van zijn context-vault herkennen in het N-Lang-dossier, met concrete uitleg en voorbeelden in `docs/`.
+- **Context:** het projectteam wil een bewezen ordeningswijze voor duurzame context herkennen in het N-Lang-dossier, met concrete uitleg en voorbeelden in `docs/`.
 - **Besluit:** het PWS-dossier gebruikt genummerde pagina's voor autoriteit, navigatie, vastleggen, werkwijze en onderhoud. Duurzame notities krijgen uniforme frontmatter; afzonderlijke mappen bevatten inboxitems, bronnotities, voorbeelden en archiefstukken.
 - **Alternatieven:** alle regels uitsluitend in `AGENTS.md`; een platte map zonder metadata; directe technische koppeling met de persoonlijke vault.
 - **Onderbouwing/bewijs:** het vijfdelige patroon scheidt vertrouwen, vindbaarheid, invoer, uitvoering en kwaliteitsbeheer. De repository blijft daardoor zelfstandig en controleerbaar.
 - **Gevolgen:** nieuwe duurzame documenten moeten metadata en een navigatielink krijgen; voorbeeldinhoud blijft expliciet niet-gezaghebbend.
 - **Vervolgactie:** de structuur bij mijlpalen controleren volgens `04-onderhoud.md`.
+- **Vervangt/vervangen door:** niet van toepassing.
+
+## PWS-D005 — Draagbare samenwerking vanaf iedere clone
+
+- **Datum:** 2026-09-18
+- **Status:** aangenomen
+- **Eigenaar:** gebruiker; vastgelegd door Codex
+- **Context:** beide PWS-partners moeten dezelfde instructies op hun eigen laptop of pc kunnen gebruiken. Vaste gebruikersnamen, driveletters, clone-locaties, editors en tijdzones maken dat onbetrouwbaar.
+- **Besluit:** `AGENTS.md` definieert de repositoryroot dynamisch via Git. Getraceerde bestanden gebruiken uitsluitend repository-relatieve projectpaden en maken geen aannames over besturingssysteem, shell, editor of lokaal account. Logregels bevatten de lokale tijd én UTC-offset en identificeren de echte uitvoerder.
+- **Alternatieven:** één afgesproken absoluut Windows-pad; aparte instructies per computer; lokale paden in configuratie committen.
+- **Onderbouwing/bewijs:** Git-relatieve paden en expliciete omgevingsvoorwaarden werken na een normale clone zonder persoonlijke mapstructuur te kopiëren.
+- **Gevolgen:** portability wordt vóór iedere PR gecontroleerd; persoonlijke configuratie blijft lokaal en veilige voorbeeldconfiguratie gebruikt placeholders.
+- **Vervolgactie:** bij nieuwe tooling controleren of installatie- en uitvoerinstructies op alle gebruikte besturingssystemen duidelijk zijn.
 - **Vervangt/vervangen door:** niet van toepassing.
