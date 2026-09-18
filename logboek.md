@@ -7,6 +7,7 @@ Tijden gebruiken de lokale tijd van de uitvoerder in het 24-uursformaat. Noteer 
 | Datum | Begin | Einde | Tijdzone | Duur | Uitvoerder | Categorie | Werkzaamheden en resultaat | Bewijs/bestanden | Validatie | Vervolg |
 |---|---:|---:|---:|---:|---|---|---|---|---|---|
 | 2026-09-18 | 14:30 | 14:47 | UTC+02:00 | 17 min | Codex (hoofdagent) | beheer en schrijven | Volledige PWS-documentatiestijl vastgelegd; zelfstandig contextdossier met vijf systeemlagen, registers, inbox, archief en voorbeelden ingericht; PR geopend. | [`AGENTS.md`](AGENTS.md), [`docs/pws/`](docs/pws/README.md), [sessieverslag](docs/pws/werklog/2026-09-18-1430-pws-documentatiestelsel.md), [PR #2](https://github.com/geinigegastcoding/N-Lang/pull/2) | Diffcheck geslaagd; 20/20 relatieve links en 20/20 frontmattersets geldig; geen producttests nodig voor documentatie-only wijziging. | Officiële schooleisen, hoofdvraag, doelgroep en methode met leerling/begeleider bevestigen. |
+| 2026-09-18 | 14:59 | 15:08 | UTC+02:00 | 9 min | Codex (hoofdagent) | beheer en schrijven | Agentwerkwijze machine- en gebruikers-onafhankelijk gemaakt; gezamenlijke tijdregistratie uitgebreid; persoonlijke absolute paden verwijderd; nieuwe PR geopend. | [`AGENTS.md`](AGENTS.md), [sessieverslag](docs/pws/werklog/2026-09-18-1459-portable-samenwerking.md), [PR #3](https://github.com/geinigegastcoding/N-Lang/pull/3) | Diffcheck geslaagd; portability-scan over 83 bestanden, 11 linkcontroles, 8 frontmattercontroles en JSON-controle geslaagd. | PR #3 samen reviewen en na akkoord mergen. |
 
 ## Correcties
 

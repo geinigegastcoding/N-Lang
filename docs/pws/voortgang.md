@@ -27,6 +27,7 @@ Dit bestand is een korte actuele overdracht, geen historisch log. Historie staat
 - Persoonlijke kennisbanken en context-vaults buiten de repository zijn op iedere computer expliciet buiten bereik van agents geplaatst.
 - De agentwerkwijze gebruikt een dynamische repositoryroot en repository-relatieve paden, zodat beide PWS-partners haar vanaf hun eigen clone kunnen gebruiken.
 - De documentatieset is ingediend in [GitHub-PR #2](https://github.com/geinigegastcoding/N-Lang/pull/2).
+- De portable samenwerkingsaanpassing is ingediend in [GitHub-PR #3](https://github.com/geinigegastcoding/N-Lang/pull/3).
 
 ## Bezig
 

@@ -3,7 +3,7 @@ title: Werksessie — draagbare samenwerking
 created: 2026-09-18
 updated: 2026-09-18
 type: session
-status: active
+status: complete
 tags: [pws, worklog, documentation, portability, collaboration]
 sources: [../../../AGENTS.md, ../00-authoriteit.md, ../besluiten.md]
 ---
@@ -14,8 +14,8 @@ sources: [../../../AGENTS.md, ../00-authoriteit.md, ../besluiten.md]
 - **Uitvoerder:** Codex (hoofdagent)
 - **Categorie:** beheer en schrijven
 - **Begintijd:** 2026-09-18 14:59 +02:00
-- **Eindtijd:** wordt bij afronding ingevuld
-- **Verstreken tijd:** wordt bij afronding berekend
+- **Eindtijd:** 2026-09-18 15:08 +02:00
+- **Verstreken tijd:** 9 min
 - **Opdracht:** maak `AGENTS.md` bruikbaar voor de projectpartner op iedere laptop of pc en dien de wijziging opnieuw als PR in.
 - **Beoogd resultaat:** een machine-, besturingssysteem- en gebruikersnaam-onafhankelijke werkwijze zonder persoonlijke absolute paden.
 
@@ -49,6 +49,7 @@ Niet binnen scope: inhoudelijke taal-, compiler-, website- of onderzoeksvragen w
 7. De portability-afspraak vastgelegd als `PWS-D005` en ondersteunende PWS-documentatie bijgewerkt.
 8. Overgebleven persoonlijke absolute paden in product- en logo-provenance vervangen door het bestaande repositorypad.
 9. Diff-, pad-, link-, frontmatter- en JSON-controles uitgevoerd.
+10. Commit `5717fed` gepusht en [GitHub-PR #3](https://github.com/geinigegastcoding/N-Lang/pull/3) geopend tegen `main`.
 
 ## Bevindingen en bewijs
 
@@ -81,6 +82,7 @@ Niet binnen scope: inhoudelijke taal-, compiler-, website- of onderzoeksvragen w
 - Frontmattercontrole over 8 gewijzigde PWS-documenten: alle verplichte velden aanwezig.
 - `ConvertFrom-Json` op `website/public/assets/n-lang-logo.webp.json`: geslaagd.
 - Staged-bestandscontrole: alleen de 13 hierboven beschreven portability-bestanden zijn opgenomen.
+- GitHub CLI: [PR #3](https://github.com/geinigegastcoding/N-Lang/pull/3) succesvol geopend vanaf `codex/portable-pws-docs` tegen `main`.
 - Geen producttests uitgevoerd: alleen instructies, documentatie, logadministratie en tekstuele assetmetadata zijn gewijzigd.
 
 ## Problemen, beperkingen en risico's
@@ -90,4 +92,9 @@ Niet binnen scope: inhoudelijke taal-, compiler-, website- of onderzoeksvragen w
 
 ## Vervolg
 
-- Wijzigingen committen, branch pushen en als nieuwe PR tegen `main` indienen.
+- PR #3 samen reviewen en na akkoord mergen.
+
+## Pull request
+
+- [PR #3 — docs: maak PWS-werkwijze portable voor beide partners](https://github.com/geinigegastcoding/N-Lang/pull/3)
+- Eerste portability-commit: `5717fed`.
