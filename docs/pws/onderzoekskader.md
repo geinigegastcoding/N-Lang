@@ -28,6 +28,7 @@ Dit document is de stabiele onderzoeksbasis. Verander hoofdvraag, deelvragen, do
 | Beoordelingsrubric | [NOG INVULLEN of link naar bestand in repository] |
 | Verplichte citatiestijl | [NOG INVULLEN; voorlopig consequent APA 7] |
 | Omvang/opmaakeisen | [NOG INVULLEN] |
+| Tijdseis | `gerapporteerd`, gebruiker 2026-09-18: 80 uur per leerling; officiële rubric nog niet aangeleverd. Zie [planning](planning.md). |
 | Regels voor AI-gebruik | [NOG INVULLEN] |
 | Privacy-/toestemmingseisen | [NOG INVULLEN] |
 
@@ -41,7 +42,9 @@ De repository beschrijft N-Lang als een manier om programmeren beschikbaar te ma
 
 **Onderzoeksdoel:** [NOG INVULLEN]
 
-**Productdoel:** ontwerp en implementeer een afgebakend N-Lang-prototype waarmee de gekozen onderzoeksvraag kan worden onderzocht. De precieze functionaliteit en succescriteria moeten nog worden bevestigd.
+**Productdoel:** ontwerp en implementeer zelf een afgebakende Nederlandstalige programmeertaal met compiler, eigen bytecode en eigen VM in Rust. De compiler krijgt twee uitvoerdoelen: eigen bytecode voor de eigen VM en rechtstreeks gegenereerde WebAssembly voor de browser. De minimale productrichting is door de gebruiker bevestigd; aanvullende taalregels en onderzoekssuccescriteria moeten nog worden besproken.
+
+**Gerapporteerde werkeis, 2026-09-18:** alle programmatuur wordt door de leerlingen geschreven. Deze AI-sessie ondersteunt documentatie, structuur, brononderzoek en planning. Bibliotheken mogen algemene infrastructuur ondersteunen maar nemen lexer, parser, semantiek, bytecode of VM niet over. De schoolregels voor AI-verantwoording zijn nog onbekend.
 
 ## Hoofdvraag
 
@@ -72,7 +75,9 @@ Voeg alleen deelvragen toe die noodzakelijk zijn om de hoofdvraag te beantwoorde
 ### Voorlopig binnen scope
 
 - een afgebakend Nederlandstalig taalprototype;
-- documentatie van syntaxis, semantiek en compiler-/interpreterpipeline;
+- eigen lexer, parser, AST, semantiek, twee codegeneratoren en VM in Rust;
+- een native CLI met doelkeuze en rechtstreeks gegenereerde Wasm-programma's, met een kleine browserproef;
+- documentatie van syntaxis, semantiek, bytecodeformaat en VM-uitvoering;
 - reproduceerbare technische tests;
 - een onderbouwde evaluatie met de gekozen doelgroep of een andere goedgekeurde methode;
 - analyse van de relatie tussen Nederlandse taalkeuzes en toegankelijkheid.
@@ -81,13 +86,14 @@ Voeg alleen deelvragen toe die noodzakelijk zijn om de hoofdvraag te beantwoorde
 
 - exacte leeftijd, voorkennis en omvang van de doelgroep;
 - welke taalconstructies het prototype minimaal ondersteunt;
-- compiler, transpiler of interpreter en het eventuele doelformaat;
+- precieze eigen bytecode-instructies, bestandsindeling, waarden en context-API;
+- Wasm-instructieset, encodingroute en gedeelde runtime-/ABI-afspraken;
 - onderzoeksopzet, steekproefgrootte en vergelijking/controlegroep;
 - succescriteria en planning.
 
 ### Buiten scope
 
-Alles wat niet nodig is voor beantwoording van de bevestigde hoofdvraag of voor een controleerbaar prototype. Concrete niet-doelen worden na afbakening hier toegevoegd.
+De bestaande website, JavaScript-transpilatie, een derde backend voor native machinecode, een brede standaardbibliotheek en een package manager horen niet bij de eerste scope. De gebruiker heeft eigen bytecode met een zelfgebouwde VM én directe N-Lang-naar-WebAssembly-compilatie gekozen. Rust zelf naar Wasm bouwen vervangt die tweede backend niet. Verdere productuitbreidingen moeten bijdragen aan de nog te bevestigen onderzoeksvraag.
 
 ## Methode per deelvraag
 
@@ -112,6 +118,10 @@ Alles wat niet nodig is voor beantwoording van de bevestigde hoofdvraag of voor 
 `[NOG INVULLEN vóór dataverzameling]`
 
 Leg vooraf vast wanneer het technische prototype voldoende werkt en welke onderzoeksuitkomst als verbetering, geen verschil of verslechtering wordt geïnterpreteerd. Pas criteria niet achteraf aan om een gunstiger resultaat te krijgen.
+
+**Voorstel voor technische acceptatie:** het [bewegingsvoorbeeld](../../examples/bewegen.nlang) wordt door de echte Rust-compiler naar eigen bytecode én Wasm vertaald. De eerste uitvoer bereikt via de eigen VM dezelfde afgesproken eindwaarden als het rechtstreeks gegenereerde Wasm-programma in de browser. De [testmatrix](../../tests/README.md) beschrijft ook foutgevallen. Dit criterium bewijst technische werking, geen toegankelijkheidswinst.
+
+**Voorstel voor evaluatie:** kies kleine programmeertaken, leg vooraf vast hoe voltooiing, fouten, hulp en tijd worden gemeten en noteer begrip/feedback apart. Bepaal pas na bevestiging van doelgroep en werving of een vergelijking haalbaar is. Bij een vergelijking moeten taakvolgorde en eerdere programmeerervaring worden meegewogen. Er zijn geen deelnemers, metingen of resultaten ingevuld.
 
 ## Koppeling product en onderzoek
 

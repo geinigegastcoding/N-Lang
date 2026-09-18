@@ -1,0 +1,7 @@
+wanneer bewegen met nieuweX, nieuweY en snelheid bij locatie dan:
+    doelX van zelf wordt nieuweX
+    doelY van zelf wordt nieuweY
+    snelheid van zelf wordt snelheid
+    locatie van zelf gaat verplaatsen naar locatie
+
+ga bewegen met vijf als nieuweX, zeven, 8 als snelheid, bij IJmuiden van Roelofarendsveen

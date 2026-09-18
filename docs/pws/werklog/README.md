@@ -76,3 +76,15 @@ sources: []
 - Vul begin- en eindtijd pas met gemeten waarden in. Gebruik `onbekend` met reden als meten onmogelijk was.
 - Zet de sessiestatus na afronding van `active` op `complete`.
 - Voeg na afronding precies één samenvattende regel toe aan het officiële logboek.
+
+## Werksessies
+
+- [2026-09-18 14:30 — PWS-documentatiestelsel](2026-09-18-1430-pws-documentatiestelsel.md).
+- [2026-09-18 14:52 — Projectinrichting en coördinatie](2026-09-18-1452-projectinrichting.md).
+- [2026-09-18 14:53 — Luna-onderzoek naar structuurbronnen](2026-09-18-1453-structuurbronnen-luna.md).
+- [2026-09-18 14:54 — Luna-bibliotheekonderzoek](2026-09-18-1454-bibliotheken-luna.md).
+- [2026-09-18 15:04 — Bijstelling bibliotheken](2026-09-18-1504-bibliotheken-correctie-luna.md).
+- [2026-09-18 15:14 — Luna-review van de tussenstand](2026-09-18-1514-review-opzet-luna.md).
+- [2026-09-18 15:19 — Bibliotheken voor twee directe backends](2026-09-18-1519-bibliotheken-wasm-backends-luna.md).
+
+Dit is alleen navigatie. Tijdtotalen en uitgevoerde activiteiten staan in [het officiële logboek](../../../logboek.md). Tussenstanden in eerdere sessies kunnen door latere gebruikersverduidelijkingen zijn achterhaald.

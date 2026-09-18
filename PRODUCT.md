@@ -2,6 +2,18 @@
 
 <!-- impeccable:product-schema 1 -->
 
+## Actuele compilercontext — 2026-09-18
+
+**Gerapporteerd door de gebruiker:** N-Lang is een eigen Nederlandstalige programmeertaal. De leerlingen schrijven zelf de compiler en lexer/parser in **Rust**, ontwerpen **eigen bytecode** en bouwen zelf de **virtuele machine**. De compiler krijgt twee echte uitvoerdoelen: eigen bytecode voor die VM en **rechtstreeks gegenereerde WebAssembly** voor de browser. De lexer, parser en betekeniscontrole worden gedeeld; beide codegeneratoren zijn eigen werk. N-Lang wordt niet naar JavaScript vertaald.
+
+De huidige opdracht omvat mapstructuur, technische uitleg, bibliotheekafspraken en een stappenplan. Alle implementatie blijft bij de leerlingen. De gemelde tijdseis is 80 uur per leerling; officiële rubric, onderzoeksvraag en doelgroepafbakening staan nog open in het [onderzoekskader](docs/pws/onderzoekskader.md). Er zijn nog geen Rust-code, Cargo-manifest of uitgevoerde compilertests.
+
+De actuele technische richting staat in [README.md](README.md), [de taalspecificatie](docs/taal/syntaxis.md), [architectuur](docs/ontwikkeling/architectuur.md) en [WebAssembly-opzet](docs/ontwikkeling/webassembly.md). Aanvullende syntaxis- en bytecodekeuzes zijn voorstellen. De website maakt geen deel uit van deze compileropdracht.
+
+## Historische websitecontext
+
+**Historisch:** de oorspronkelijke productnotities hieronder blijven bewaard als context van eerder websitewerk. Hun uitspraken over stack, Java/doeltaal en scope gelden niet als actuele compilerrequirements. De actuele richting hierboven gaat voor.
+
 ## Platform
 
 web

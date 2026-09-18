@@ -25,6 +25,7 @@ sources: []
 ## Onderzoek
 
 - [`onderzoekskader.md`](onderzoekskader.md) — schoolvoorwaarden, vragen, scope, begrippen en methode.
+- [`planning.md`](planning.md) — begroting van 80 uur per leerling, mijlpalen en taakverdeling.
 - [`bronnenregister.md`](bronnenregister.md) — centrale lijst van externe en interne bronnen.
 - [`bronnen/`](bronnen/README.md) — duurzame notities per belangrijke bron.
 - `hoofdstukken/` — conceptteksten; aanmaken zodra er echte hoofdstukinhoud is.
@@ -46,10 +47,20 @@ sources: []
 
 ## Productcontext
 
-- [`README.md` in de repositoryroot](../../README.md) — oorspronkelijke korte projectomschrijving.
+- [`README.md` in de repositoryroot](../../README.md) — actueel projectdoel en concreet stappenplan.
 - [`PRODUCT.md`](../../PRODUCT.md) — productdoel, doelgroep en open keuzes.
 - [`DESIGN.md`](../../DESIGN.md) — visueel ontwerp voor de website.
 - De broncode en tests in de repository — gezaghebbend voor het werkelijk geïmplementeerde gedrag.
+
+## Technische opzet
+
+- [Documentatie-ingang](../README.md).
+- [Taalontwerp](../taal/README.md), [syntaxis en betekenis](../taal/syntaxis.md), [conceptgrammatica](../taal/grammatica.ebnf).
+- [Beginnen met Rust](../ontwikkeling/aan-de-slag.md), [architectuur](../ontwikkeling/architectuur.md) en [bibliotheken](../ontwikkeling/bibliotheken.md).
+- [Eigen bytecode en VM](../ontwikkeling/bytecode-en-vm.md) en [rechtstreekse Wasm-backend](../ontwikkeling/webassembly.md).
+- [Rust-modulekaart](../../src/README.md), [testplan](../../tests/README.md), [taalvoorbeeld](../../examples/README.md) en [browserproef](../../browser/README.md).
+
+De technische documenten beschrijven nog te bouwen onderdelen. Zij zijn geen vervanging voor de open onderzoeksvragen of echte testresultaten.
 
 ## Navigatieregel
 

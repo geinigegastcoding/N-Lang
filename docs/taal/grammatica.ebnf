@@ -1,0 +1,35 @@
+(* Concept 0.1, 2026-09-18. Ontwerp, nog geen werkende parser.
+   Betekenisregels, bronlocaties en lexerafspraken: syntaxis.md.
+   { X } = nul of meer; [ X ] = optioneel; | = keuze.
+   IDENT, INTEGER en GETALWOORD zijn lexertokens.
+   NEWLINE, INDENT, DEDENT en EOF worden door de lexer geleverd.
+   Lege/commentaarregels leveren geen tokens op.
+   Een laatste regel zonder regeleinde krijgt toch NEWLINE.
+*)
+
+programma       = { topniveau }, EOF ;
+topniveau       = definitie | ( opdracht, NEWLINE ) ;
+definitie       = "wanneer", IDENT, "met", parameters,
+                  [ "bij", IDENT ], "dan", ":", NEWLINE,
+                  INDENT, opdracht, NEWLINE, { opdracht, NEWLINE }, DEDENT ;
+parameters      = IDENT, { ",", IDENT }, [ "en", IDENT ] ;
+opdracht        = toewijzing | methodeaanroep | functieaanroep ;
+toewijzing      = eigenschap, "wordt", expressie ;
+methodeaanroep  = referentie, "gaat", IDENT, "naar", expressie ;
+functieaanroep  = "ga", IDENT, "met", argumenten,
+                  [ [ "," ], "bij", expressie ] ;
+argumenten      = argument, { ",", argument } ;
+argument        = expressie, [ "als", IDENT ] ;
+expressie       = INTEGER | GETALWOORD | referentie ;
+referentie      = "zelf" | IDENT, [ "van", referentie ] ;
+eigenschap      = IDENT, "van", referentie ;
+
+(* INTEGER: 0 of [1-9][0-9]*; bereik wordt semantisch gecontroleerd.
+   GETALWOORD: nul, een, twee, drie, vier, vijf, zes, zeven, acht, negen, tien.
+   IDENT: [A-Za-z_][A-Za-z0-9_]*, exclusief gereserveerde woorden.
+   Kijk bij ',' één token vooruit: ', bij' sluit argumenten af.
+   Voor een opdracht die met een referentie begint, bepaalt het volgende
+   sleutelwoord ('wordt' of 'gaat') de opdrachtvorm. Bij 'wordt' moet de
+   referentie bovendien een eigenschap zijn.
+   Inspringing is slechts één functieniveau; INDENT = vier spaties.
+*)
