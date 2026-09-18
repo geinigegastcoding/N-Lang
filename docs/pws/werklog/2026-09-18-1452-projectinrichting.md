@@ -80,6 +80,8 @@ De gevraagde opzet is afgerond en gepubliceerd in [PR #4](https://github.com/gei
 
 De afsluitende controle na de logboekregel telde **333 relatieve verwijzingen**, 75 Markdownbestanden, 29 PWS-metadata-sets en 58 lokale bronpaden; alles geldig. De begroting blijft 80 uur per leerling.
 
+**Administratieve aanvulling, 2026-09-18 15:40:** bij de controle na de laatste push bleek dat PR #4 om 15:37:36 +02:00 al was samengevoegd, op head `8914620`, met mergecommit `c343720`. De inhoudelijke opzet staat daardoor op `main`; afsluitcommit `0c29300` kwam na die merge. De resterende drie documentbestanden worden daarom via een kleine vervolg-PR aangeboden. De hierboven gemeten eindtijd betreft inhoudelijk werk en de eerste PR-controle; deze aanvullende Git-afhandeling vindt daarna plaats en is geen leerlingtijd.
+
 Gewijzigde gebieden: README/productcontext; technische handleidingen, taalconcept en voorbeeld; module- en testplaatsen; PWS-planning, bronnen, besluiten, status, navigatie, werklogs en officieel logboek. De documentatiecontrole en Git-diffcontrole zijn geslaagd. Er zijn geen compiler- of browsertests uitgevoerd, omdat er bewust geen implementatie is geschreven.
 
 Implementatie, hoofd-/deelvragen, rubric, doelgroep, precieze syntaxiskeuzes, bytecodeformaat en runtime-ABI blijven leerling-/begeleiderswerk. Begin bij `README.md` en `docs/ontwikkeling/aan-de-slag.md`. Alle agenttijd is apart geregistreerd en telt niet als gerealiseerde leerlingtijd.
