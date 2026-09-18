@@ -1,0 +1,1 @@
+- functie {naam} {voorzetsel} {naam} {,|en} {naam2} {voorzetsel2} {naam3}:
