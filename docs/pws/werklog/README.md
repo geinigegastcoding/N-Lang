@@ -1,7 +1,7 @@
 ---
 title: Werklog N-Lang-PWS
 created: 2026-09-18
-updated: 2026-09-18
+updated: 2026-10-13
 type: system
 status: active
 tags: [pws, worklog, process]
@@ -86,5 +86,6 @@ sources: []
 - [2026-09-18 15:04 — Bijstelling bibliotheken](2026-09-18-1504-bibliotheken-correctie-luna.md).
 - [2026-09-18 15:14 — Luna-review van de tussenstand](2026-09-18-1514-review-opzet-luna.md).
 - [2026-09-18 15:19 — Bibliotheken voor twee directe backends](2026-09-18-1519-bibliotheken-wasm-backends-luna.md).
+- [2026-10-13 18:03 — Website-dependencyonderhoud](2026-10-13-1803-dependency-onderhoud-website.md).
 
 Dit is alleen navigatie. Tijdtotalen en uitgevoerde activiteiten staan in [het officiële logboek](../../../logboek.md). Tussenstanden in eerdere sessies kunnen door latere gebruikersverduidelijkingen zijn achterhaald.

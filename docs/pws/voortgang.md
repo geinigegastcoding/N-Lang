@@ -1,7 +1,7 @@
 ---
 title: Voortgang N-Lang-PWS
 created: 2026-09-18
-updated: 2026-09-18
+updated: 2026-10-13
 type: status
 status: active
 tags: [pws, status, planning]
@@ -10,7 +10,7 @@ sources: [onderzoekskader.md, besluiten.md, planning.md, ../../README.md]
 
 # Voortgang N-Lang-PWS
 
-- **Momentopname:** 2026-09-18.
+- **Momentopname:** 2026-10-13.
 - **Fase:** projectinrichting en taal-/compilerontwerp; implementatie door leerlingen volgt.
 - **Productrichting:** compiler in Rust met twee eigen backends: eigen bytecode voor een eigen Rust-VM, en rechtstreeks gegenereerde WebAssembly voor de browser.
 - **Documentatiestatus:** startplan en structuur ingericht; aanvullende taal-/bytecode-/runtimekeuzes zijn concepten.
@@ -28,6 +28,10 @@ Historie staat in [logboek](../../logboek.md) en [werklog](werklog/README.md).
 - [Planning](planning.md) met een begroting van 80 uur per leerling.
 - Officiële Rust-, taalstructuur- en Wasm-bronnen in het [bronnenregister](bronnenregister.md) vastgelegd.
 - Luna-subagents ingezet voor afgebakend brononderzoek, bibliotheekdocumentatie en review; bijdragen staan apart in het logboek.
+
+## Separaat websiteonderhoud
+
+- Op 2026-10-13 zijn op gebruikersverzoek de N-Lang-websitepakketten Motion (`13.2.0` → `14.2.0`), Vite (`8.3.0` → `8.3.4`) en `@vitejs/plugin-react` (`6.1.1` → `6.1.2`) bijgewerkt. De productiebuild slaagde; `npm outdated` toonde geen achterstallige pakketten en `npm audit` vond geen kwetsbaarheden. Dit was algemeen dependencyonderhoud buiten de PWS-productscope en voegde geen compilerfunctie of onderzoeksbewijs toe. Zie het [werksessieverslag](werklog/2026-10-13-1803-dependency-onderhoud-website.md).
 
 ## Nog niet geïmplementeerd
 

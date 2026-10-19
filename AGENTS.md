@@ -19,7 +19,7 @@ Volg altijd eerst expliciete opdrachten van de gebruiker en de officiële eisen 
 
 ## 2. Niet-onderhandelbare regels
 
-1. **Werk uitsluitend in deze repository:** `C:\Users\Daniël\Desktop\Codex\projecten\N-Lang`.
+1. **Werk uitsluitend in deze repository:** `N-Lang`.
 2. **Lees en volg voor elke taak dit bestand en de relevante bestanden onder `docs/pws/`.**
 3. **Werk het procesgeheugen bij bij iedere inhoudelijke wijziging.** Code zonder bijgewerkte onderzoeks- en procesdocumentatie is niet klaar.
 4. **Houd `logboek.md` bij.** Iedere inhoudelijke werksessie krijgt een eigen regel met echte begin- en eindtijd, bestede tijd, werkzaamheden, resultaat en validatie.

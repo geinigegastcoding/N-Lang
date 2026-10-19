@@ -1,7 +1,7 @@
 ---
 title: Bronnenregister N-Lang-PWS
 created: 2026-09-18
-updated: 2026-09-18
+updated: 2026-10-13
 type: source
 status: active
 tags: [pws, sources, evidence]
@@ -48,6 +48,7 @@ Registreer een bron zodra die inhoudelijk wordt gebruikt. Dit bestand ondersteun
 | B020 | geraadpleegd | Bytecode Alliance. (2026, 10 september). *wasm-encoder* (0.259.0 op geraadpleegde pagina). [Cratedocumentatie](https://docs.rs/crate/wasm-encoder/latest) | Projectdocumentatie | Crate overview | Smalle encoder als alternatief voor eigen binaire serialisatie | Primair; neemt N-Lang-semantiek niet over, geen dependency gekozen | 2026-09-18 |
 | B021 | geraadpleegd | WebAssembly Community Group. (z.d.; WebAssembly 3.0 zoals geraadpleegd). *Text Format*. [Specificatie](https://webassembly.github.io/spec/core/text/) | Primaire standaard | Text Format | WAT als mogelijke tussenstap naar Wasm | Gezaghebbend formaat; assemblerkeuze en N-Lang-codegen blijven eigen afweging | 2026-09-18 |
 | B022 | geraadpleegd | WebAssembly Community Group. (2026, 11 september; versie zoals geraadpleegd). *WebAssembly 3.0 — Modules*. [Binary](https://webassembly.github.io/spec/core/binary/modules.html), [syntax](https://webassembly.github.io/spec/core/syntax/modules.html). [Notitie](bronnen/b022-webassembly-modules.md) | Primaire standaard | Sections; imports; functions; exports; code | Directe Wasm-backend | Normatief formaat; geen bewijs dat alle features in elke doelbrowser werken | 2026-09-18 |
+| B023 | geraadpleegd | Motion. (z.d.). *Motion for React upgrade guide*. [Motion](https://motion.dev/docs/react-upgrade-guide) | Officiële projectdocumentatie | Motion 14.0 | Alleen dependency-compatibiliteit voor het afzonderlijke N-Lang-websitepakket; geen PWS-claim | Primaire leverancierbron voor de eigen API; geen onafhankelijk onderzoek | 2026-10-13 |
 
 De bronnen onderbouwen technische middelen en structuur. Zij onderbouwen geen toegankelijkheidswinst of voorspelde leerlinguren. B011 is niet gebruikt: de aanvankelijk geraadpleegde ECMAScript-specificatie verviel als inhoudelijke onderbouwing na de verduidelijkte bytecode-/VM-richting.
 
@@ -70,4 +71,4 @@ Houd bij het schrijven bij welke bron waar wordt gebruikt:
 |---|---|---|---|
 | — | — | — | — |
 
-De huidige toepassing is technische ontwerpdocumentatie: B001–B004 in [architectuur](../ontwikkeling/architectuur.md), B005–B009 en B012–B021 in [bibliotheken](../ontwikkeling/bibliotheken.md), B010/B019 in [aan de slag](../ontwikkeling/aan-de-slag.md), B017/B018 en B020–B022 in [WebAssembly](../ontwikkeling/webassembly.md). Er zijn nog geen definitieve PWS-hoofdstukken.
+De huidige toepassing is technische ontwerpdocumentatie: B001–B004 in [architectuur](../ontwikkeling/architectuur.md), B005–B009 en B012–B021 in [bibliotheken](../ontwikkeling/bibliotheken.md), B010/B019 in [aan de slag](../ontwikkeling/aan-de-slag.md), B017/B018 en B020–B022 in [WebAssembly](../ontwikkeling/webassembly.md). B023 is uitsluitend gebruikt voor afzonderlijk websiteonderhoud en ondersteunt geen PWS-claim. Er zijn nog geen definitieve PWS-hoofdstukken.
