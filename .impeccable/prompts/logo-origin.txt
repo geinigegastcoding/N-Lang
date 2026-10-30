@@ -1,1 +1,1 @@
-Pre-existing N-Lang logo supplied by the user. Original source: C:\Users\Daniël\Desktop\Codex\projecten\Politieke beweging campagne plan\N-Lang.png. The mark and colors were preserved; only the raster dimensions and web encoding were optimized for the website.
+Pre-existing N-Lang logo supplied by the project owner. Repository asset: website/public/assets/n-lang-logo.webp. The mark and colors were preserved; only the raster dimensions and web encoding were optimized for the website.

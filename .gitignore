@@ -5,3 +5,6 @@
 
 # Rust Cargo.lock straks wel bewaren voor reproduceerbare builds.
 # Bestaande website- en editorbestanden hebben hun eigen afspraken.
+
+# Lokale JetBrains-instellingen zijn per apparaat en horen niet in Git.
+/.idea/

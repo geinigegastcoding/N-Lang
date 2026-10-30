@@ -57,16 +57,16 @@ Dit register bevat keuzes met blijvende invloed op onderzoek, product, planning 
 - **Vervolgactie:** na iedere sessie begin, einde, duur, resultaat en validatie registreren.
 - **Vervangt/vervangen door:** niet van toepassing.
 
-## PWS-D003 — Persoonlijke Kennis-vault volledig buiten scope
+## PWS-D003 — Persoonlijke context-vaults volledig buiten scope
 
 - **Datum:** 2026-09-18
 - **Status:** aangenomen
 - **Eigenaar:** gebruiker; vastgelegd door Codex
-- **Context:** de gebruiker wil de organisatorische aanpak lokaal weerspiegelen, maar verbiedt agents in de persoonlijke vault te werken of die te betreden.
-- **Besluit:** `C:\Users\Daniël\Desktop\Codex\Kennis` mag door agents niet worden geopend, gelezen, doorzocht, gewijzigd of als invoer/uitvoer gebruikt.
+- **Context:** het project weerspiegelt een bruikbare organisatorische aanpak, maar persoonlijke kennisbanken van bijdragers horen niet bij de repository.
+- **Besluit:** geen enkele persoonlijke kennisbank, context-vault of notitiemap buiten de huidige Git-repository mag door agents worden geopend, gelezen, doorzocht, gewijzigd of als projectinvoer/-uitvoer gebruikt.
 - **Alternatieven:** read-only toegang; synchronisatie; rechtstreekse notities in de vault.
 - **Onderbouwing/bewijs:** expliciete gebruikersopdracht en duidelijke scheiding tussen privékennis en projectdossier.
-- **Gevolgen:** ontbrekende vaultinformatie moet door de gebruiker bewust in het project of gesprek worden aangeleverd.
+- **Gevolgen:** ontbrekende externe informatie moet door de eigenaar bewust in het project of gesprek worden aangeleverd; de regel geldt op iedere computer.
 - **Vervolgactie:** grens handhaven in iedere werksessie.
 - **Vervangt/vervangen door:** niet van toepassing.
 
@@ -121,3 +121,16 @@ Dit register bevat keuzes met blijvende invloed op onderzoek, product, planning 
 - **Gevolgen:** [planning](planning.md) is een concept. Aanvullende taalregels, bytecode en CLI zijn ook voorstellen; het aangeleverde voorbeeld blijft de basis.
 - **Vervolgactie:** verdeling en methode met leerlingen/begeleider bespreken; aanpassen op basis van echt tempo en deadline.
 - **Vervangt/vervangen door:** niet van toepassing.
+
+## PWS-D008 — Draagbare samenwerking vanaf iedere clone
+
+- **Datum:** 2026-10-30
+- **Status:** aangenomen
+- **Eigenaar:** gebruiker; vastgelegd door Codex
+- **Context:** beide PWS-partners moeten vanaf hun eigen apparaat en clone kunnen werken, zonder vaste driveletters, accountnamen, editors, shells of absolute projectpaden. De projectinstructies verplichten één gemeenschappelijke tijdstandaard en houden persoonlijke context-vaults buiten bereik.
+- **Besluit:** bepaal `REPO_ROOT` met `git rev-parse --show-toplevel` en houd alle projectbestanden daarbinnen. Getraceerde bestanden gebruiken repository-relatieve paden. Instructies leggen OS- of shellvoorwaarden uit. Logboek- en sessietijden blijven voor beide partners `Europe/Amsterdam`; gebruik een stabiele rol- of partneridentificatie in plaats van een lokaal account.
+- **Alternatieven:** één afgesproken absoluut Windows-pad; aparte instructies per apparaat; lokale tijd per uitvoerder; IDE-instellingen zonder teamafspraak vastleggen.
+- **Onderbouwing/bewijs:** de Git-root en relatieve paden werken vanaf afzonderlijke clones; een gedeelde tijdzone maakt de gezamenlijke tijdregistratie consistent. De externe persoonlijke-contextgrens blijft gelden.
+- **Gevolgen:** houd machineconfiguratie lokaal, commit geen IDE-instellingen zonder expliciete teamafspraak en voer voor wijzigingen een portability-scan uit.
+- **Vervolgactie:** beide partners controleren de eerste gebruiksstappen vanaf hun eigen clone en melden eventuele omgevingsafhankelijke commando's.
+- **Vervangt/vervangen door:** het portabilityvoorstel met hetzelfde nummer uit gesloten, niet-gemergede PR #3; hernummerd omdat PWS-D005–D007 inmiddels op `main` staan.
