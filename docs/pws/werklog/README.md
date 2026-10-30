@@ -90,5 +90,6 @@ sources: []
 - [2026-10-30 — Git-branchstatus en opruimkeuze](2026-10-30-onbekend-branchstatus-en-opruimkeuze.md).
 - [2026-10-30 16:14 — Review van niet-gemergede branches](2026-10-30-1614-branch-review.md).
 - [2026-10-30 16:22 — Duo-workflow en website-dependencies integreren](2026-10-30-1622-duo-workflow-integration.md).
+- [2026-10-30 16:54 — Synchronisatie tussen twee clones](2026-10-30-1654-duo-clone-sync.md).
 
 Dit is alleen navigatie. Tijdtotalen en uitgevoerde activiteiten staan in [het officiële logboek](../../../logboek.md). Tussenstanden in eerdere sessies kunnen door latere gebruikersverduidelijkingen zijn achterhaald.
