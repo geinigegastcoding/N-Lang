@@ -39,6 +39,7 @@ sources: []
 - [`logboek.md`](../../logboek.md) — officiële tijd- en activiteitenregistratie.
 - [`werklog/`](werklog/README.md) — uitgebreide, gedateerde sessieverslagen.
 - [Review en integratie van portable duo-workflow en website-dependencies](werklog/2026-10-30-1622-duo-workflow-integration.md) — review, integratie en validatie voor afzonderlijke clones.
+- [Synchronisatie tussen twee clones](werklog/2026-10-30-1654-duo-clone-sync.md) — veilige fast-forward-updates en hervatten van een bestaande taakbranch op een tweede apparaat.
 
 ## Vastleggen en bewaren
 

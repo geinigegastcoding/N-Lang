@@ -145,10 +145,50 @@ Een bijdrager moet met alleen Git en de later gedocumenteerde projecttools kunne
 git clone https://github.com/geinigegastcoding/N-Lang.git
 cd N-Lang
 git rev-parse --show-toplevel
-git status
+git status --short --branch
+git switch main
+git pull --ff-only origin main
 ```
 
 Lees daarna `AGENTS.md`, `docs/pws/README.md`, `docs/pws/onderzoekskader.md` en `docs/pws/voortgang.md`. Maak voor een wijziging een eigen taakbranch vanaf de actuele standaardbranch. Een lokaal pad mag verschillen; er hoeft niets naar dezelfde mapstructuur als die van een andere bijdrager te worden verplaatst.
+
+### Een taak starten of voortzetten vanaf twee clones
+
+Iedere bijdrager werkt vanuit een eigen clone. Houd voor dezelfde taak één unieke branchnaam aan en laat op die branch steeds maar één clone tegelijk wijzigingen pushen.
+
+Begin een nieuwe taak alleen met een schone werkboom. Controleer `git status --short --branch`; rond of bewaar bestaand werk voordat je van branch wisselt. Werk daarna `main` fast-forward bij en maak de taakbranch:
+
+```text
+git switch main
+git pull --ff-only origin main
+git switch -c <unieke-taakbranch>
+```
+
+Gebruik voor de branch een afgesproken taakslug, eventueel met afgesproken initialen. Gebruik geen apparaatnaam, accountnaam of lokaal pad.
+
+Na committen publiceer je de branch en open je de afgesproken pull request:
+
+```text
+git push --set-upstream origin <unieke-taakbranch>
+```
+
+Als je dezelfde taak op een tweede apparaat voortzet, commit en push je eerst de huidige wijzigingen vanaf het eerste apparaat. Haal daarna de bestaande branch op in de tweede clone:
+
+```text
+git fetch origin
+git switch --track -c <unieke-taakbranch> origin/<unieke-taakbranch>
+```
+
+Als de branch daar al lokaal bestaat, gebruik je `git switch <unieke-taakbranch>` gevolgd door `git pull --ff-only`. Push vanaf het tweede apparaat pas nadat je de nieuwste remote-branch hebt opgehaald. Werk nooit gelijktijdig vanuit twee clones op dezelfde branch.
+
+Na merge werkt iedere clone met een schone werkboom `main` bij voordat die een volgende taakbranch maakt:
+
+```text
+git switch main
+git pull --ff-only origin main
+```
+
+`--ff-only` voorkomt dat een update stilzwijgend een mergecommit maakt. Als de update faalt of de werkboom niet schoon is, stop dan en behoud de bestaande wijzigingen; gebruik geen harde reset als synchronisatieoplossing.
 
 ## 5. Verplichte werkwijze per taak
 

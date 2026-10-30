@@ -29,6 +29,7 @@ Historie staat in [logboek](../../logboek.md) en [werklog](werklog/README.md).
 - Officiële Rust-, taalstructuur- en Wasm-bronnen in het [bronnenregister](bronnenregister.md) vastgelegd.
 - Luna-subagents ingezet voor afgebakend brononderzoek, bibliotheekdocumentatie en review; bijdragen staan apart in het logboek.
 - De agentwerkwijze gebruikt een Git-afgeleide `REPO_ROOT` en repository-relatieve paden, zodat beide partners vanaf afzonderlijke clones kunnen werken. Persoonlijke context-vaults buiten de repository blijven verboden.
+- De Git-werkwijze beschrijft hoe iedere clone `main` fast-forward bijwerkt, een unieke taakbranch maakt en dezelfde remote branch veilig op een tweede apparaat hervat.
 - Logboek- en sessietijden gebruiken voor beide partners `Europe/Amsterdam`, ongeacht de apparaatinstelling.
 
 ## Separaat websiteonderhoud

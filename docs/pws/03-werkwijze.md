@@ -1,7 +1,7 @@
 ---
 title: Operationele werkwijze voor N-Lang-agents
 created: 2026-09-18
-updated: 2026-09-18
+updated: 2026-10-30
 type: system
 status: active
 tags: [pws, workflow, agents]
@@ -40,6 +40,10 @@ De gebruiker bepaalt intentie en prioriteit. De agent voert uit, controleert en 
 - Noteer gewijzigde paden, commando's, echte testresultaten en bekende beperkingen.
 - Werk voorbeelden en PWS-uitleg bij wanneer gedrag of architectuur verandert.
 - Een werkend product is technisch bewijs, maar niet automatisch bewijs voor toegankelijkheid of leereffect.
+
+## Bij samenwerking vanuit afzonderlijke clones
+
+Werk de gedeelde `main`-branch fast-forward bij voordat je een nieuwe taakbranch maakt. Houd per taak één unieke branch aan en push die vanuit steeds één clone tegelijk. Als je een taak op een ander apparaat voortzet, haal dan eerst dezelfde remote taakbranch op. Na merge werkt iedere clone `main` bij voordat een nieuwe taak begint. De precieze, veilige Git-commando's staan in [`AGENTS.md`](../../AGENTS.md#een-taak-starten-of-voortzetten-vanaf-twee-clones).
 
 ## Bij nieuwe input
 
