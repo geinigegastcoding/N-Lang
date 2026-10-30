@@ -32,6 +32,8 @@ Onderhoud is conservatief en herhaalbaar: het verbetert vindbaarheid en consiste
 - Archiveer alleen duidelijk vervangen documenten; behoud het origineel en voeg opvolger plus reden toe.
 - Bewaar alle historische logboekregels en werklogs; herschrijf geen oud proces om het netter te laten lijken.
 - Controleer privacy, geheimen en herleidbare deelnemersinformatie.
+- Zoek in getraceerde bestanden naar absolute Windows-, macOS- en Linux-gebruikerspaden, driveletters en lokale accountnamen; vervang ze door repository-relatieve paden of placeholders.
+- Controleer dat installatie- en uitvoerinstructies geen specifieke shell, editor of besturingssysteem stilzwijgend veronderstellen.
 - Voer `git diff --check` en relevante technische tests uit.
 - Noteer audituitkomst, gevonden problemen en reparaties in een eigen werklog en officiële logboekregel.
 

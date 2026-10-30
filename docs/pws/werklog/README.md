@@ -1,7 +1,7 @@
 ---
 title: Werklog N-Lang-PWS
 created: 2026-09-18
-updated: 2026-10-13
+updated: 2026-10-30
 type: system
 status: active
 tags: [pws, worklog, process]
@@ -14,7 +14,7 @@ Deze map bevat één gedetailleerd verslag per niet-triviale werksessie. Het off
 
 ## Bestandsnaam
 
-Gebruik `YYYY-MM-DD-HHMM-korte-naam.md`, gebaseerd op de lokale begintijd in `Europe/Amsterdam`. Gebruik bij gelijktijdige sessies een extra unieke slug.
+Gebruik `YYYY-MM-DD-HHMM-korte-naam.md`, gebaseerd op de begintijd in `Europe/Amsterdam`, ongeacht de apparaatinstelling van de uitvoerder. Noteer in het bestand ook de numerieke UTC-offset. Gebruik bij gelijktijdige sessies een extra unieke slug.
 
 ## Verplicht sjabloon
 
@@ -89,5 +89,6 @@ sources: []
 - [2026-10-13 18:03 — Website-dependencyonderhoud](2026-10-13-1803-dependency-onderhoud-website.md).
 - [2026-10-30 — Git-branchstatus en opruimkeuze](2026-10-30-onbekend-branchstatus-en-opruimkeuze.md).
 - [2026-10-30 16:14 — Review van niet-gemergede branches](2026-10-30-1614-branch-review.md).
+- [2026-10-30 16:22 — Duo-workflow en website-dependencies integreren](2026-10-30-1622-duo-workflow-integration.md).
 
 Dit is alleen navigatie. Tijdtotalen en uitgevoerde activiteiten staan in [het officiële logboek](../../../logboek.md). Tussenstanden in eerdere sessies kunnen door latere gebruikersverduidelijkingen zijn achterhaald.

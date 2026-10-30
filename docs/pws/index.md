@@ -1,7 +1,7 @@
 ---
 title: Index PWS-dossier N-Lang
 created: 2026-09-18
-updated: 2026-09-18
+updated: 2026-10-30
 type: system
 status: active
 tags: [pws, index, navigation]
@@ -10,7 +10,7 @@ sources: []
 
 # Index PWS-dossier N-Lang
 
-> Canonieke navigatie voor het lokale N-Lang-PWS-dossier. Laatst inhoudelijk bijgewerkt: 2026-09-18.
+> Canonieke navigatie voor het lokale N-Lang-PWS-dossier. Laatst inhoudelijk bijgewerkt: 2026-10-30.
 
 ## Systeem
 
@@ -38,6 +38,7 @@ sources: []
 - [`besluiten.md`](besluiten.md) — aangenomen, vervangen en ingetrokken keuzes.
 - [`logboek.md`](../../logboek.md) — officiële tijd- en activiteitenregistratie.
 - [`werklog/`](werklog/README.md) — uitgebreide, gedateerde sessieverslagen.
+- [Review en integratie van portable duo-workflow en website-dependencies](werklog/2026-10-30-1622-duo-workflow-integration.md) — review, integratie en validatie voor afzonderlijke clones.
 
 ## Vastleggen en bewaren
 

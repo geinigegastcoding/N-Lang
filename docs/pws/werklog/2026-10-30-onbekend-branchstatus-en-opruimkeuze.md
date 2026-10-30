@@ -11,7 +11,7 @@ sources: [../../../AGENTS.md, https://github.com/geinigegastcoding/N-Lang/pull/3
 # Werksessie: Git-branchstatus en opruimkeuze
 
 - Datum: 2026-10-30
-- Uitvoerder: Codex (`/root`)
+- Uitvoerder: Codex (hoofdagent)
 - Categorie: beheer en onderzoek
 - Begintijd: onbekend; de eerste tijdstempel stond in een afgekapt toolresultaat.
 - Eindtijd: 2026-10-30 16:13 +01:00
