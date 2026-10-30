@@ -1,7 +1,7 @@
 ---
 title: Besluitenregister N-Lang-PWS
 created: 2026-09-18
-updated: 2026-09-18
+updated: 2026-10-30
 type: decision
 status: active
 tags: [pws, decisions, governance]
