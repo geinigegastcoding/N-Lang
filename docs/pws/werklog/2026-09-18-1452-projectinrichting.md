@@ -1,7 +1,7 @@
 ---
 title: Projectinrichting voor een eigen Rust-compiler met twee backends
 created: 2026-09-18
-updated: 2026-09-18
+updated: 2026-10-30
 type: session
 status: complete
 tags: [pws, inrichting, rust, taalontwerp, planning]
@@ -12,7 +12,7 @@ sources: [../../../AGENTS.md, ../../../PRODUCT.md, ../onderzoekskader.md]
 
 ## Opdracht en tijd
 
-- Uitvoerder: Codex (`/root`), met twee door de gebruiker gevraagde Luna-subagents voor afgebakend bronnen- en bibliotheekonderzoek.
+- Uitvoerder: Codex (hoofdagent), met twee door de gebruiker gevraagde Luna-subagents voor afgebakend bronnen- en bibliotheekonderzoek.
 - Begin: 2026-09-18 14:52:49 +02:00, Europe/Amsterdam, rechtstreeks uit de systeemklok.
 - Einde van inhoudelijk werk en PR-controle: 2026-09-18 15:38:42 +02:00, Europe/Amsterdam. Gemeten duur: 2753 seconden, weergegeven als 46 minuten. Geen bekende onderbrekingen afgetrokken.
 - Git-basis: `2e339bbd3c7b1a7bdc628722c8ada4ef78a79ad5`, branch `codex/docs`.

@@ -1,7 +1,7 @@
 ---
 title: Autoriteit en grenzen van het N-Lang-PWS
 created: 2026-09-18
-updated: 2026-09-18
+updated: 2026-10-30
 type: system
 status: active
 tags: [pws, authority, evidence, boundaries]

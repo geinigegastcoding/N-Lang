@@ -1,7 +1,7 @@
 ---
 title: Werksessie — correctie bibliothekenkeuze naar bytecode en WASM
 created: 2026-09-18
-updated: 2026-09-18
+updated: 2026-10-30
 type: session
 status: complete
 tags: [pws, worklog, rust, bytecode, wasm, bibliotheken]
@@ -19,7 +19,7 @@ sources:
 # Werksessie: correctie bibliothekenkeuze naar bytecode en WASM
 
 - **Datum:** 2026-09-18
-- **Uitvoerder:** Codex (`/root/bibliotheken`)
+- **Uitvoerder:** Codex (bibliotheken)
 - **Categorie:** review en schrijven
 - **Begintijd:** 2026-09-18 15:04 +02:00
 - **Eindtijd:** 2026-09-18 15:08 +02:00

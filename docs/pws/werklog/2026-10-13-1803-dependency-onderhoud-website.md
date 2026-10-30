@@ -1,7 +1,7 @@
 ---
 title: Werksessie — dependencyonderhoud website
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-30
 type: session
 status: complete
 tags: [pws, worklog, dependencies, website]
@@ -11,7 +11,7 @@ sources: [https://motion.dev/docs/react-upgrade-guide, ../../../website/package.
 # Werksessie: dependencyonderhoud website
 
 - Datum: 2026-10-13
-- Uitvoerder: Codex (`/root`)
+- Uitvoerder: Codex (hoofdagent)
 - Categorie: beheer en ontwikkeling
 - Begintijd: 2026-10-13 18:03 +02:00
 - Eindtijd: 2026-10-13 18:15 +02:00

@@ -1,7 +1,7 @@
 ---
 title: Onderhoudscontract voor het N-Lang-PWS-dossier
 created: 2026-09-18
-updated: 2026-09-18
+updated: 2026-10-30
 type: system
 status: active
 tags: [pws, maintenance, quality, archive]

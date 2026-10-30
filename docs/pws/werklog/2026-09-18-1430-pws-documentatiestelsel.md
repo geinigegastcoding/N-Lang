@@ -1,7 +1,7 @@
 ---
 title: Werksessie — PWS-documentatiestelsel
 created: 2026-09-18
-updated: 2026-09-18
+updated: 2026-10-30
 type: session
 status: complete
 tags: [pws, worklog, documentation, governance]

@@ -1,7 +1,7 @@
 ---
 title: Werksessie — bibliotheken en hulpmiddelen voor N-Lang
 created: 2026-09-18
-updated: 2026-09-18
+updated: 2026-10-30
 type: session
 status: complete
 tags: [pws, worklog, rust, bibliotheken, compiler]
@@ -23,7 +23,7 @@ sources:
 # Werksessie: bibliotheken en hulpmiddelen voor N-Lang
 
 - **Datum:** 2026-09-18
-- **Uitvoerder:** Codex (`/root/bibliotheken`)
+- **Uitvoerder:** Codex (bibliotheken)
 - **Categorie:** onderzoek en schrijven
 - **Begintijd:** 2026-09-18 14:54 +02:00
 - **Eindtijd:** 2026-09-18 14:59 +02:00

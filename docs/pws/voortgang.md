@@ -61,6 +61,6 @@ Er is nog geen Cargo-manifest, Rust-code, bytecodeformaat, VM, Wasm-generator, b
 
 ## Laatste overdracht
 
-De leerlingen kunnen beginnen bij de README en de eerste kleine Rust-test. De documentatie houdt technische werking, onderzoeksclaims en werkelijk bestede leerlinguren gescheiden. PR #3 werd gesloten zonder merge; de draagbare samenwerkingsregels worden in de huidige integratie bijgewerkt op basis van de review.
+De leerlingen kunnen beginnen bij de README en de eerste kleine Rust-test. De documentatie houdt technische werking, onderzoeksclaims en werkelijk bestede leerlinguren gescheiden. PR #3 werd gesloten zonder merge; de herbeoordeelde draagbare samenwerkingsregels zijn als besluit `PWS-D008` opgenomen en via [PR #6](https://github.com/geinigegastcoding/N-Lang/pull/6) in `main` gemerged.
 
-De opzet is via [PR #4](https://github.com/geinigegastcoding/N-Lang/pull/4) samengevoegd in `main`. De afsluitende logboek- en sessieadministratie volgt in een afzonderlijke kleine PR, omdat #4 tijdens de afronding al was gemerged. De documentatie- en diffcontroles zijn geslaagd; de compiler en beide backends zijn uitdrukkelijk nog leerlingwerk.
+De website-dependencyupdate in PR #6 staat los van de PWS-productscope. De productiebuild en dependencycontroles slaagden. De oorspronkelijke opzet staat in [PR #4](https://github.com/geinigegastcoding/N-Lang/pull/4); de compiler en beide backends zijn uitdrukkelijk nog leerlingwerk. Zie het [integratieverslag](werklog/2026-10-30-1622-duo-workflow-integration.md) voor de branchreview, validatie en beperkingen.
