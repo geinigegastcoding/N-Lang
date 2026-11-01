@@ -43,7 +43,7 @@ Daniël meldde op 2026-10-31 één uur te hebben besteed aan het starten van de 
 
 ## Eerstvolgende acties voor leerlingen
 
-De onvoltooide crate is op 2026-11-01 als commit `9120b0a` gepusht naar branch `codex/publish-lexer-2026-11-01`; [PR #9](https://github.com/geinigegastcoding/N-Lang/pull/9) staat open. Publicatie is geen validatie: de crate heeft nog geen Cargo-build of tests doorlopen.
+De onvoltooide crate is op 2026-11-01 als commit `9120b0a` gepusht naar branch `codex/publish-lexer-2026-11-01`. [PR #9](https://github.com/geinigegastcoding/N-Lang/pull/9) is op 2026-11-02 gemerged in `main` als `c8fe87b`. `cargo test --offline --manifest-path src/lexer/lexer/Cargo.toml` eindigde met exitcode 0 en compileerde de crate, maar voerde nul tests uit en gaf zeven compilerwaarschuwingen. Dit valideert alleen de build; tokenisatie is nog niet getest. Zie het [validatieverslag](werklog/2026-11-02-0041-lexer-validation.md).
 
 1. Bespreek de aanvullende syntaxisvoorstellen, het contextschema en de kleinste gedeelde taalset.
 2. Vul schoolrubric, deadline, doelgroep en definitieve hoofd-/deelvragen aan.
