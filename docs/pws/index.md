@@ -1,7 +1,7 @@
 ---
 title: Index PWS-dossier N-Lang
 created: 2026-09-18
-updated: 2026-10-31
+updated: 2026-11-02
 type: system
 status: active
 tags: [pws, index, navigation]
@@ -10,7 +10,7 @@ sources: []
 
 # Index PWS-dossier N-Lang
 
-> Canonieke navigatie voor het lokale N-Lang-PWS-dossier. Laatst inhoudelijk bijgewerkt: 2026-10-31.
+> Canonieke navigatie voor het lokale N-Lang-PWS-dossier. Laatst inhoudelijk bijgewerkt: 2026-11-02.
 
 ## Systeem
 
@@ -42,6 +42,8 @@ sources: []
 - [Synchronisatie tussen twee clones](werklog/2026-10-30-1654-duo-clone-sync.md) — veilige fast-forward-updates en hervatten van een bestaande taakbranch op een tweede apparaat.
 - [Daniëls gemelde start van de lexer](werklog/2026-10-31-onbekend-lexer-start.md) — één uur gerapporteerd; exacte uitvoerdatum en tijden onbekend.
 - [Registratie van de lexerstart](werklog/2026-10-31-0002-logboek-lexerstart.md) — logboek- en documentatiestatus bijgewerkt.
+- [Publicatie van de onvoltooide Rust-lexerproef](werklog/2026-11-01-2351-lexer-package-publication.md) — crate gecommit en gepusht; PR #9 staat open, validatie blijft nog nodig.
+- [Controle van de lexer-handoff](werklog/2026-11-02-0004-lexer-handoff-verification.md) — bevestigt de overdrachtstatus en volgende validatiestap.
 
 ## Vastleggen en bewaren
 

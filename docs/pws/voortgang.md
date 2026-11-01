@@ -10,7 +10,7 @@ sources: [onderzoekskader.md, besluiten.md, planning.md, ../../README.md]
 
 # Voortgang N-Lang-PWS
 
-- **Momentopname:** 2026-11-01.
+- **Momentopname:** 2026-11-02.
 - **Fase:** taal-/compilerontwerp; Daniël meldt dat de lexerimplementatie is gestart (1 uur gerapporteerd).
 - **Productrichting:** compiler in Rust met twee eigen backends: eigen bytecode voor een eigen Rust-VM, en rechtstreeks gegenereerde WebAssembly voor de browser.
 - **Documentatiestatus:** startplan en structuur ingericht; aanvullende taal-/bytecode-/runtimekeuzes zijn concepten.
@@ -42,6 +42,8 @@ Historie staat in [logboek](../../logboek.md) en [werklog](werklog/README.md).
 Daniël meldde op 2026-10-31 één uur te hebben besteed aan het starten van de lexer; de exacte uitvoerdatum en begin-/eindtijd zijn niet opgegeven. Bij registratie bevatte `src/lexer/lexer.rs` een onvolledige `Token`-enum en `lex`-stub en was het bestand nog niet door Git gevolgd. Sindsdien staat er een losse Cargo-proef in `src/lexer/lexer/`, met een onvoltooide lexer in `src/lexer/lexer/src/main.rs`; die is nog niet gevalideerd. De gedeelde compiler, bytecodeformaat, VM, Wasm-generator, browserharnas en geautomatiseerde compilertests zijn nog niet geïmplementeerd. Zie het [sessieverslag](werklog/2026-10-31-onbekend-lexer-start.md).
 
 ## Eerstvolgende acties voor leerlingen
+
+De onvoltooide crate is op 2026-11-01 als commit `9120b0a` gepusht naar branch `codex/publish-lexer-2026-11-01`; [PR #9](https://github.com/geinigegastcoding/N-Lang/pull/9) staat open. Publicatie is geen validatie: de crate heeft nog geen Cargo-build of tests doorlopen.
 
 1. Bespreek de aanvullende syntaxisvoorstellen, het contextschema en de kleinste gedeelde taalset.
 2. Vul schoolrubric, deadline, doelgroep en definitieve hoofd-/deelvragen aan.
