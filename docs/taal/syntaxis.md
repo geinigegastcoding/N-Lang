@@ -1,6 +1,6 @@
 # Syntaxis en betekenis van N-Lang
 
-**Status: concept, 2026-09-18.** Het [bewegingsvoorbeeld](../../examples/bewegen.nlang) komt van de gebruiker. De compiler wordt in Rust geschreven en krijgt eigen bytecode én rechtstreeks gegenereerde WebAssembly als uitvoerdoelen. Het aanvankelijke JavaScript-fragment verduidelijkt alleen het gedrag. Aanvullende regels hieronder zijn **voorstellen voor versie 0.1**, te bespreken voordat jullie ze implementeren. Er bestaat nog geen Rust-implementatie die deze regels bevestigt.
+**Status: concept, 2026-09-18.** Het [bewegingsvoorbeeld](../../examples/bewegen.nlang) komt van de gebruiker. De compiler wordt in Rust geschreven en krijgt eigen bytecode én rechtstreeks gegenereerde WebAssembly als uitvoerdoelen. Het aanvankelijke JavaScript-fragment verduidelijkt alleen het gedrag. Aanvullende regels hieronder zijn **voorstellen voor versie 0.1**, te bespreken voordat jullie ze implementeren. De onvoltooide lexerproef in `src/lexer/lexer/` bevestigt deze regels nog niet; er is geen gevalideerde end-to-endimplementatie.
 
 ## Wat de opdracht vastlegt
 

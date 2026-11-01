@@ -1,6 +1,6 @@
 # Aan de slag met jullie eigen compiler
 
-Dit zijn stappen om **zelf uit te voeren**. Deze inrichting bevat nog geen Cargo-manifest, Rust-code, VM of geïmplementeerde tests.
+Dit zijn stappen om **zelf uit te voeren**. Een losse, onvoltooide lexerproef staat in `src/lexer/lexer/src/main.rs`; de gedeelde compiler heeft nog geen rootmanifest, werkende VM of uitgevoerde compilertest.
 
 ## Eerste werksessie
 

@@ -1,6 +1,6 @@
 # Lexer
 
-**Status: nog zelf te implementeren.** Deze map bevat alleen een werkbeschrijving en een bestaande placeholder.
+**Status: in bewerking.** De losse Cargo-proef in `lexer/lexer/` bevat in `src/main.rs` een eerste, onvolledige tokenenum en lexerfunctie. De implementatie is nog niet als compiler gebouwd of getest.
 
 Lees broncode en lever tokens met bronlocaties, regelovergangen en inspringing.
 

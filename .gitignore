@@ -1,5 +1,6 @@
 # Uitvoer van het toekomstige Rust-project en de compiler.
 /target/
+/src/lexer/lexer/target/
 /build/
 /browser/pkg/
 

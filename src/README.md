@@ -1,6 +1,6 @@
 # Plaatsen voor eigen Rust-code
 
-Hier schrijven de leerlingen later zelf de compiler en VM in Rust. De mappen zijn ingericht; er zijn nog geen `.rs`-bestanden of Cargo-manifest.
+De leerlingen schrijven zelf de compiler en VM in Rust. Een losse Cargo-proef staat in `lexer/lexer/`; `lexer/lexer/src/main.rs` bevat een onvoltooide eerste lexer. Bij de statuscontrole op 2026-10-31 was de voorganger `src/lexer/lexer.rs` nog niet door Git gevolgd. De repositoryroot heeft geen `Cargo.toml` en de proef is nog niet gevalideerd.
 
 | Map | Begin met |
 |---|---|
@@ -16,4 +16,4 @@ Hier schrijven de leerlingen later zelf de compiler en VM in Rust. De mappen zij
 | [cli](cli/README.md) | Bestanden en terminal |
 | [runtime](runtime/README.md) | Gedeelde waarden, objecten en uitvoeringsafspraken |
 
-Volg [aan de slag](../docs/ontwikkeling/aan-de-slag.md). De modules horen in één Cargo-package; zie [architectuur](../docs/ontwikkeling/architectuur.md). `main.rs`, `lib.rs` en `mod.rs` zijn toekomstige bestanden die jullie zelf schrijven.
+Volg [aan de slag](../docs/ontwikkeling/aan-de-slag.md). De modules horen in één Cargo-package; zie [architectuur](../docs/ontwikkeling/architectuur.md). `lexer`, `lib.rs` en `mod.rs` zijn toekomstige bestanden die jullie zelf schrijven.

@@ -1,7 +1,7 @@
 ---
 title: Werklog N-Lang-PWS
 created: 2026-09-18
-updated: 2026-10-30
+updated: 2026-10-31
 type: system
 status: active
 tags: [pws, worklog, process]
@@ -91,5 +91,9 @@ sources: []
 - [2026-10-30 16:14 — Review van niet-gemergede branches](2026-10-30-1614-branch-review.md).
 - [2026-10-30 16:22 — Duo-workflow en website-dependencies integreren](2026-10-30-1622-duo-workflow-integration.md).
 - [2026-10-30 16:54 — Synchronisatie tussen twee clones](2026-10-30-1654-duo-clone-sync.md).
+- [2026-10-31 — Daniëls gemelde start van de lexer (werkdatum/tijden onbekend)](2026-10-31-onbekend-lexer-start.md).
+- [2026-10-31 00:02 — Registratie van de lexerstart](2026-10-31-0002-logboek-lexerstart.md).
+- [2026-11-01 23:51 — Publicatie van de onvoltooide Rust-lexerproef](2026-11-01-2351-lexer-package-publication.md).
+- [2026-11-02 00:04 — Lexer-handoff controleren en status vastleggen](2026-11-02-0004-lexer-handoff-verification.md).
 
 Dit is alleen navigatie. Tijdtotalen en uitgevoerde activiteiten staan in [het officiële logboek](../../../logboek.md). Tussenstanden in eerdere sessies kunnen door latere gebruikersverduidelijkingen zijn achterhaald.
