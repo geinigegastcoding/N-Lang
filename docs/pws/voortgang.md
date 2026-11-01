@@ -1,7 +1,7 @@
 ---
 title: Voortgang N-Lang-PWS
 created: 2026-09-18
-updated: 2026-10-30
+updated: 2026-11-01
 type: status
 status: active
 tags: [pws, status, planning]
@@ -10,8 +10,8 @@ sources: [onderzoekskader.md, besluiten.md, planning.md, ../../README.md]
 
 # Voortgang N-Lang-PWS
 
-- **Momentopname:** 2026-10-30.
-- **Fase:** projectinrichting en taal-/compilerontwerp; implementatie door leerlingen volgt.
+- **Momentopname:** 2026-11-01.
+- **Fase:** taal-/compilerontwerp; Daniël meldt dat de lexerimplementatie is gestart (1 uur gerapporteerd).
 - **Productrichting:** compiler in Rust met twee eigen backends: eigen bytecode voor een eigen Rust-VM, en rechtstreeks gegenereerde WebAssembly voor de browser.
 - **Documentatiestatus:** startplan en structuur ingericht; aanvullende taal-/bytecode-/runtimekeuzes zijn concepten.
 
@@ -37,9 +37,9 @@ Historie staat in [logboek](../../logboek.md) en [werklog](werklog/README.md).
 - Op 2026-10-13 zijn op gebruikersverzoek de N-Lang-websitepakketten Motion (`13.2.0` → `14.2.0`), Vite (`8.3.0` → `8.3.4`) en `@vitejs/plugin-react` (`6.1.1` → `6.1.2`) bijgewerkt. De productiebuild slaagde; `npm outdated` toonde geen achterstallige pakketten en `npm audit` vond geen kwetsbaarheden. Dit was algemeen dependencyonderhoud buiten de PWS-productscope en voegde geen compilerfunctie of onderzoeksbewijs toe. Zie het [werksessieverslag](werklog/2026-10-13-1803-dependency-onderhoud-website.md).
 - Op 2026-10-30 zijn de branch-updates verder bijgewerkt naar Motion `14.9.0`, Vite `8.3.5` en React/React DOM `19.3.1`; `@vitejs/plugin-react` blijft `6.1.2`. De productiebuild slaagde, `npm audit` vond nul kwetsbaarheden en `npm outdated` was leeg. Dit is websiteonderhoud buiten de PWS-productscope; zie het [integratieverslag](werklog/2026-10-30-1622-duo-workflow-integration.md).
 
-## Nog niet geïmplementeerd
+## Implementatie in uitvoering
 
-Er is nog geen Cargo-manifest, Rust-code, bytecodeformaat, VM, Wasm-generator, browserharnas of geautomatiseerde compilertest. Dit is bewust: de gebruiker wil dat de leerlingen alle programmatuur zelf schrijven. De huidige documentatie bewijst geen werkende taal.
+Daniël meldde op 2026-10-31 één uur te hebben besteed aan het starten van de lexer; de exacte uitvoerdatum en begin-/eindtijd zijn niet opgegeven. Bij registratie bevatte `src/lexer/lexer.rs` een onvolledige `Token`-enum en `lex`-stub en was het bestand nog niet door Git gevolgd. Sindsdien staat er een losse Cargo-proef in `src/lexer/lexer/`, met een onvoltooide lexer in `src/lexer/lexer/src/main.rs`; die is nog niet gevalideerd. De gedeelde compiler, bytecodeformaat, VM, Wasm-generator, browserharnas en geautomatiseerde compilertests zijn nog niet geïmplementeerd. Zie het [sessieverslag](werklog/2026-10-31-onbekend-lexer-start.md).
 
 ## Eerstvolgende acties voor leerlingen
 

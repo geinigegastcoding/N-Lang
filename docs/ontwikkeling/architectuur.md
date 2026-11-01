@@ -1,6 +1,6 @@
 # Architectuur en mapstructuur
 
-**Werkafspraak, 2026-09-18:** de compiler en VM worden door de leerlingen in Rust geschreven. De compiler heeft twee backends: eigen bytecode voor de zelfgeschreven VM en rechtstreeks gegenereerde WebAssembly voor de browser. Zie [PWS-D005 en PWS-D006](../pws/besluiten.md). Er is nog geen implementatie.
+**Werkafspraak, 2026-09-18:** de compiler en VM worden door de leerlingen in Rust geschreven. De compiler heeft twee backends: eigen bytecode voor de zelfgeschreven VM en rechtstreeks gegenereerde WebAssembly voor de browser. Zie [PWS-D005 en PWS-D006](../pws/besluiten.md). Op 2026-10-31 is een eerste lexerbestand aanwezig, maar de lexer en de rest van de compiler zijn nog niet gebouwd of gevalideerd.
 
 ## De indeling onderbouwen
 

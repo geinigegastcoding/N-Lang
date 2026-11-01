@@ -2,7 +2,7 @@
 
 N-Lang is een Nederlandstalige programmeertaal die we voor ons profielwerkstuk zelf gaan bouwen in **Rust**. Onze compiler krijgt **twee uitvoerdoelen: eigen bytecode en WebAssembly**. De eigen bytecode voeren we uit met een zelfgebouwde virtuele machine (VM); de gegenereerde WebAssembly werkt in de browser.
 
-**Huidige status:** documentatie, modulemappen en het eerste taalvoorbeeld staan klaar. De Rust-compiler en VM zijn nog niet geïmplementeerd; er is nog geen `Cargo.toml`. Het effect van Nederlandse syntaxis op beginnende programmeurs moet nog worden onderzocht.
+**Huidige status:** documentatie, modulemappen en het eerste taalvoorbeeld staan klaar. Er is een losse, onvoltooide lexerproef in `src/lexer/lexer/`; de Rust-compiler en VM zijn nog niet geïmplementeerd en de repositoryroot heeft nog geen `Cargo.toml`. Het effect van Nederlandse syntaxis op beginnende programmeurs moet nog worden onderzocht.
 
 ## Begin hier
 
@@ -84,4 +84,4 @@ N-Lang/
 └── logboek.md              # werkelijk bestede tijd
 ```
 
-Jullie maken later zelf `Cargo.toml`, `src/main.rs`, `src/lib.rs` en de modulebestanden. Dit overzicht toont de relevante compilerstructuur; bestaande overige projectbestanden blijven behouden. De [architectuur](docs/ontwikkeling/architectuur.md) verklaart de indeling en de officiële taalprojecten waarop die is gebaseerd. Alle documentatie is vindbaar via [docs/README.md](docs/README.md) en de [PWS-index](docs/pws/index.md).
+Jullie maken later zelf de gedeelde `Cargo.toml`, `src/main.rs`, `src/lib.rs` en de modulebestanden. De losse lexerproef heeft een eigen manifest en is nog geen gevalideerde compiler. Dit overzicht toont de relevante compilerstructuur; bestaande overige projectbestanden blijven behouden. De [architectuur](docs/ontwikkeling/architectuur.md) verklaart de indeling en de officiële taalprojecten waarop die is gebaseerd. Alle documentatie is vindbaar via [docs/README.md](docs/README.md) en de [PWS-index](docs/pws/index.md).

@@ -23,7 +23,7 @@ sources: [https://doc.rust-lang.org/cargo/guide/project-layout.html]
 
 ## Feiten uit de bron
 
-Cargo legt `Cargo.toml` en `Cargo.lock` in de package-root. De standaard broncode staat onder `src/`, met `src/lib.rs` als standaard bibliotheekdoel, `src/main.rs` als standaard uitvoerbaar doel en `src/bin/` voor extra uitvoerbare programma's. De conventionele mappen `examples/`, `tests/` en `benches/` hebben elk een eigen doel. Voor een meerbestandsvoorbeeld of meerbestandsintegratietest gebruikt Cargo een `main.rs` in een submap van het bijbehorende doel.
+Cargo legt `Cargo.toml` en `Cargo.lock` in de package-root. De standaard broncode staat onder `src/`, met `src/lib.rs` als standaard bibliotheekdoel, `src/main.rs` als standaard uitvoerbaar doel en `src/bin/` voor extra uitvoerbare programma's. De conventionele mappen `examples/`, `tests/` en `benches/` hebben elk een eigen doel. Voor een meerbestandsvoorbeeld of meerbestandsintegratietest gebruikt Cargo een `lexer` in een submap van het bijbehorende doel.
 
 ## Afgeleid advies voor N-Lang
 

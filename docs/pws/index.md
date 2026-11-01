@@ -1,7 +1,7 @@
 ---
 title: Index PWS-dossier N-Lang
 created: 2026-09-18
-updated: 2026-10-30
+updated: 2026-10-31
 type: system
 status: active
 tags: [pws, index, navigation]
@@ -10,7 +10,7 @@ sources: []
 
 # Index PWS-dossier N-Lang
 
-> Canonieke navigatie voor het lokale N-Lang-PWS-dossier. Laatst inhoudelijk bijgewerkt: 2026-10-30.
+> Canonieke navigatie voor het lokale N-Lang-PWS-dossier. Laatst inhoudelijk bijgewerkt: 2026-10-31.
 
 ## Systeem
 
@@ -40,6 +40,8 @@ sources: []
 - [`werklog/`](werklog/README.md) — uitgebreide, gedateerde sessieverslagen.
 - [Review en integratie van portable duo-workflow en website-dependencies](werklog/2026-10-30-1622-duo-workflow-integration.md) — review, integratie en validatie voor afzonderlijke clones.
 - [Synchronisatie tussen twee clones](werklog/2026-10-30-1654-duo-clone-sync.md) — veilige fast-forward-updates en hervatten van een bestaande taakbranch op een tweede apparaat.
+- [Daniëls gemelde start van de lexer](werklog/2026-10-31-onbekend-lexer-start.md) — één uur gerapporteerd; exacte uitvoerdatum en tijden onbekend.
+- [Registratie van de lexerstart](werklog/2026-10-31-0002-logboek-lexerstart.md) — logboek- en documentatiestatus bijgewerkt.
 
 ## Vastleggen en bewaren
 

@@ -7,4 +7,4 @@ N-Lang krijgt een zelfgebouwde compiler in Rust met twee uitvoerdoelen: eigen by
 - [Bewegingsvoorbeeld](../../examples/bewegen.nlang): de eerste acceptatie-eis, waarvan het gedrag in de specificatie staat.
 - [Testplan](../../tests/README.md): hoe elke regel later toetsbaar wordt.
 
-Status op 2026-09-18: ontwerp, geen geïmplementeerde Rust-taal. De grammatica is niet automatisch getest of door een parsergenerator verwerkt. Keuzes die verder gaan dan het aangeleverde voorbeeld staan als **voorstel** in de specificatie.
+Status op 2026-11-01: ontwerp met een onvoltooide lexerproef in `src/lexer/lexer/`; er is nog geen geïmplementeerde of gevalideerde Rust-taal. De grammatica is niet automatisch getest of door een parsergenerator verwerkt. Keuzes die verder gaan dan het aangeleverde voorbeeld staan als **voorstel** in de specificatie.

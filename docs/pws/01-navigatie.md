@@ -45,7 +45,7 @@ sources: [index.md]
 
 - `PRODUCT.md` beschrijft productcontext en open productkeuzes.
 - `DESIGN.md` beschrijft het visuele systeem van de website.
-- [`src/`](../../src/README.md) bevat de plaatsen voor eigen Rust-modules, inclusief twee codegen-backends, eigen bytecode en VM. Er is nog geen Rust-implementatie.
+- [`src/`](../../src/README.md) bevat de eigen Rust-modules, inclusief twee codegen-backends, eigen bytecode en VM. De lexer is gestart; er is nog geen gevalideerde compilerimplementatie.
 - [`examples/`](../../examples/README.md), [`tests/`](../../tests/README.md) en [`browser/`](../../browser/README.md) zijn ingericht voor toekomstige voorbeelden en technische validatie.
 - [`docs/taal/`](../taal/README.md) beschrijft het concept; [de technische handleidingen](../README.md) leggen bouwroute, bibliotheken en backends uit.
 - Technische documentatie moet verwijzen naar concrete paden, tests en waar relevant een commit-ID.
