@@ -44,6 +44,7 @@ sources: []
 - [Registratie van de lexerstart](werklog/2026-10-31-0002-logboek-lexerstart.md) — logboek- en documentatiestatus bijgewerkt.
 - [Publicatie van de onvoltooide Rust-lexerproef](werklog/2026-11-01-2351-lexer-package-publication.md) — crate gecommit en gepusht; PR #9 staat open, validatie blijft nog nodig.
 - [Controle van de lexer-handoff](werklog/2026-11-02-0004-lexer-handoff-verification.md) — bevestigt de overdrachtstatus en volgende validatiestap.
+- [Validatie van de gepubliceerde lexer-crate](werklog/2026-11-02-0041-lexer-validation.md) — PR #9 is gemerged; de Cargo-testbuild slaagt maar bevat nog nul tests.
 
 ## Vastleggen en bewaren
 
