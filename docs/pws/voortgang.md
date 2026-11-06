@@ -1,7 +1,7 @@
 ---
 title: Voortgang N-Lang-PWS
 created: 2026-09-18
-updated: 2026-11-01
+updated: 2026-11-02
 type: status
 status: active
 tags: [pws, status, planning]
@@ -36,6 +36,7 @@ Historie staat in [logboek](../../logboek.md) en [werklog](werklog/README.md).
 
 - Op 2026-10-13 zijn op gebruikersverzoek de N-Lang-websitepakketten Motion (`13.2.0` → `14.2.0`), Vite (`8.3.0` → `8.3.4`) en `@vitejs/plugin-react` (`6.1.1` → `6.1.2`) bijgewerkt. De productiebuild slaagde; `npm outdated` toonde geen achterstallige pakketten en `npm audit` vond geen kwetsbaarheden. Dit was algemeen dependencyonderhoud buiten de PWS-productscope en voegde geen compilerfunctie of onderzoeksbewijs toe. Zie het [werksessieverslag](werklog/2026-10-13-1803-dependency-onderhoud-website.md).
 - Op 2026-10-30 zijn de branch-updates verder bijgewerkt naar Motion `14.9.0`, Vite `8.3.5` en React/React DOM `19.3.1`; `@vitejs/plugin-react` blijft `6.1.2`. De productiebuild slaagde, `npm audit` vond nul kwetsbaarheden en `npm outdated` was leeg. Dit is websiteonderhoud buiten de PWS-productscope; zie het [integratieverslag](werklog/2026-10-30-1622-duo-workflow-integration.md).
+- Op 2026-11-02 zijn binnen de bestaande manifest-ranges `@vitejs/plugin-react` (`6.1.2` → `6.2.1`), PostCSS (`8.5.30` → `8.5.32`) en `tslib` (`2.8.1` → `2.9.1`) bijgewerkt. `npm update --no-audit --no-fund` eindigde met exitcode 0; build, audit en tests zijn niet uitgevoerd. Dit onderhoud staat los van de PWS-productscope; zie het [werksessieverslag](werklog/2026-11-02-2242-website-dependency-update.md).
 
 ## Implementatie in uitvoering
 

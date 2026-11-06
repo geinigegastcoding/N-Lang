@@ -1,7 +1,7 @@
 ---
 title: Werklog N-Lang-PWS
 created: 2026-09-18
-updated: 2026-10-31
+updated: 2026-11-02
 type: system
 status: active
 tags: [pws, worklog, process]
@@ -96,5 +96,6 @@ sources: []
 - [2026-11-01 23:51 — Publicatie van de onvoltooide Rust-lexerproef](2026-11-01-2351-lexer-package-publication.md).
 - [2026-11-02 00:04 — Lexer-handoff controleren en status vastleggen](2026-11-02-0004-lexer-handoff-verification.md).
 - [2026-11-02 00:41 — Gepubliceerde lexer-crate valideren](2026-11-02-0041-lexer-validation.md).
+- [2026-11-02 22:42 — N-Lang-websiteafhankelijkheden bijwerken](2026-11-02-2242-website-dependency-update.md).
 
 Dit is alleen navigatie. Tijdtotalen en uitgevoerde activiteiten staan in [het officiële logboek](../../../logboek.md). Tussenstanden in eerdere sessies kunnen door latere gebruikersverduidelijkingen zijn achterhaald.
