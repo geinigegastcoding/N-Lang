@@ -1,7 +1,7 @@
 ---
 title: Index PWS-dossier N-Lang
 created: 2026-09-18
-updated: 2026-11-02
+updated: 2026-11-06
 type: system
 status: active
 tags: [pws, index, navigation]
@@ -10,7 +10,7 @@ sources: []
 
 # Index PWS-dossier N-Lang
 
-> Canonieke navigatie voor het lokale N-Lang-PWS-dossier. Laatst inhoudelijk bijgewerkt: 2026-11-02.
+> Canonieke navigatie voor het lokale N-Lang-PWS-dossier. Laatst inhoudelijk bijgewerkt: 2026-11-06.
 
 ## Systeem
 
@@ -45,6 +45,8 @@ sources: []
 - [Publicatie van de onvoltooide Rust-lexerproef](werklog/2026-11-01-2351-lexer-package-publication.md) — crate gecommit en gepusht; PR #9 staat open, validatie blijft nog nodig.
 - [Controle van de lexer-handoff](werklog/2026-11-02-0004-lexer-handoff-verification.md) — bevestigt de overdrachtstatus en volgende validatiestap.
 - [Validatie van de gepubliceerde lexer-crate](werklog/2026-11-02-0041-lexer-validation.md) — PR #9 is gemerged; de Cargo-testbuild slaagt maar bevat nog nul tests.
+- [Website-dependencies bijwerken](werklog/2026-11-02-2242-website-dependency-update.md) — drie pakketversies binnen de bestaande manifest-ranges bijgewerkt; npm-update slaagde, verdere validatie niet uitgevoerd.
+- [Lexerupdates voorbereiden voor PR en merge](werklog/2026-11-06-2021-lexer-pr.md) — PR #13 is gemerged; twee reviewbevindingen blijven open voor leerlingopvolging.
 
 ## Vastleggen en bewaren
 
