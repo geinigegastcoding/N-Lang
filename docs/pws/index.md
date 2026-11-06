@@ -46,7 +46,7 @@ sources: []
 - [Controle van de lexer-handoff](werklog/2026-11-02-0004-lexer-handoff-verification.md) — bevestigt de overdrachtstatus en volgende validatiestap.
 - [Validatie van de gepubliceerde lexer-crate](werklog/2026-11-02-0041-lexer-validation.md) — PR #9 is gemerged; de Cargo-testbuild slaagt maar bevat nog nul tests.
 - [Website-dependencies bijwerken](werklog/2026-11-02-2242-website-dependency-update.md) — drie pakketversies binnen de bestaande manifest-ranges bijgewerkt; npm-update slaagde, verdere validatie niet uitgevoerd.
-- [Lexerupdates voorbereiden voor PR en merge](werklog/2026-11-06-2021-lexer-pr.md) — PR #13 staat open; review vond twee lexerproblemen, merge wacht op afhandeling.
+- [Lexerupdates voorbereiden voor PR en merge](werklog/2026-11-06-2021-lexer-pr.md) — PR #13 is gemerged; twee reviewbevindingen blijven open voor leerlingopvolging.
 
 ## Vastleggen en bewaren
 
