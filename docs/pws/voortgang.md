@@ -1,7 +1,7 @@
 ---
 title: Voortgang N-Lang-PWS
 created: 2026-09-18
-updated: 2026-11-02
+updated: 2026-11-06
 type: status
 status: active
 tags: [pws, status, planning]
@@ -10,7 +10,7 @@ sources: [onderzoekskader.md, besluiten.md, planning.md, ../../README.md]
 
 # Voortgang N-Lang-PWS
 
-- **Momentopname:** 2026-11-02.
+- **Momentopname:** 2026-11-06.
 - **Fase:** taal-/compilerontwerp; Daniël meldt dat de lexerimplementatie is gestart (1 uur gerapporteerd).
 - **Productrichting:** compiler in Rust met twee eigen backends: eigen bytecode voor een eigen Rust-VM, en rechtstreeks gegenereerde WebAssembly voor de browser.
 - **Documentatiestatus:** startplan en structuur ingericht; aanvullende taal-/bytecode-/runtimekeuzes zijn concepten.
@@ -40,15 +40,17 @@ Historie staat in [logboek](../../logboek.md) en [werklog](werklog/README.md).
 
 ## Implementatie in uitvoering
 
-Daniël meldde op 2026-10-31 één uur te hebben besteed aan het starten van de lexer; de exacte uitvoerdatum en begin-/eindtijd zijn niet opgegeven. Bij registratie bevatte `src/lexer/lexer.rs` een onvolledige `Token`-enum en `lex`-stub en was het bestand nog niet door Git gevolgd. Sindsdien staat er een losse Cargo-proef in `src/lexer/lexer/`, met een onvoltooide lexer in `src/lexer/lexer/src/main.rs`; die is nog niet gevalideerd. De gedeelde compiler, bytecodeformaat, VM, Wasm-generator, browserharnas en geautomatiseerde compilertests zijn nog niet geïmplementeerd. Zie het [sessieverslag](werklog/2026-10-31-onbekend-lexer-start.md).
+Daniël meldde op 2026-10-31 één uur te hebben besteed aan het starten van de lexer; de exacte uitvoerdatum en begin-/eindtijd zijn niet opgegeven. Bij registratie bevatte `src/lexer/lexer.rs` een onvolledige `Token`-enum en `lex`-stub en was het bestand nog niet door Git gevolgd. Sindsdien staat er een losse Cargo-proef in `src/lexer/lexer/`, met een onvoltooide lexer in `src/lexer/lexer/src/main.rs`. De gedeelde compiler, bytecodeformaat, VM, Wasm-generator, browserharnas en geautomatiseerde compilertests zijn nog niet geïmplementeerd. Zie het [sessieverslag](werklog/2026-10-31-onbekend-lexer-start.md).
+
+Op 2026-11-06 is de lexerproef verder aangepast. `cargo test --offline --manifest-path src/lexer/lexer/Cargo.toml` eindigde met exitcode 0, maar voerde nul tests uit en gaf negen compilerwaarschuwingen. Dit bevestigt alleen dat de crate bouwt; correcte tokenisatie is niet getest. Zie het [PR-sessieverslag](werklog/2026-11-06-2021-lexer-pr.md).
 
 ## Eerstvolgende acties voor leerlingen
 
-De onvoltooide crate is op 2026-11-01 als commit `9120b0a` gepusht naar branch `codex/publish-lexer-2026-11-01`. [PR #9](https://github.com/geinigegastcoding/N-Lang/pull/9) is op 2026-11-02 gemerged in `main` als `c8fe87b`. `cargo test --offline --manifest-path src/lexer/lexer/Cargo.toml` eindigde met exitcode 0 en compileerde de crate, maar voerde nul tests uit en gaf zeven compilerwaarschuwingen. Dit valideert alleen de build; tokenisatie is nog niet getest. Zie het [validatieverslag](werklog/2026-11-02-0041-lexer-validation.md).
+De onvoltooide crate is op 2026-11-01 als commit `9120b0a` gepusht naar branch `codex/publish-lexer-2026-11-01`. [PR #9](https://github.com/geinigegastcoding/N-Lang/pull/9) is op 2026-11-02 gemerged in `main` als `c8fe87b`. De Cargo-build slaagde toen, voerde nul tests uit en gaf zeven compilerwaarschuwingen; zie het [validatieverslag](werklog/2026-11-02-0041-lexer-validation.md). De bijgewerkte code bouwt op 2026-11-06 ook, maar heeft nog steeds geen tokenisatietests.
 
 1. Bespreek de aanvullende syntaxisvoorstellen, het contextschema en de kleinste gedeelde taalset.
 2. Vul schoolrubric, deadline, doelgroep en definitieve hoofd-/deelvragen aan.
-3. Volg [aan de slag](../ontwikkeling/aan-de-slag.md); initialiseer zelf Cargo en schrijf één token-test.
+3. Voeg gerichte tests toe aan de bestaande Cargo-crate voor geldige tokens, ongeldige tekens en randgevallen.
 4. Bouw één toewijzing via de volledige eigen-bytecode-/VM-route.
 5. Laat vroeg een kleine rechtstreeks gegenereerde Wasm-module in een browser draaien.
 6. Ontwerp de gedeelde waarde-/objectafspraken en breid beide backends uit tot het voorbeeld.

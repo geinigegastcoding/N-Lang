@@ -1,7 +1,7 @@
 ---
 title: Werklog N-Lang-PWS
 created: 2026-09-18
-updated: 2026-11-02
+updated: 2026-11-06
 type: system
 status: active
 tags: [pws, worklog, process]
@@ -97,5 +97,6 @@ sources: []
 - [2026-11-02 00:04 — Lexer-handoff controleren en status vastleggen](2026-11-02-0004-lexer-handoff-verification.md).
 - [2026-11-02 00:41 — Gepubliceerde lexer-crate valideren](2026-11-02-0041-lexer-validation.md).
 - [2026-11-02 22:42 — N-Lang-websiteafhankelijkheden bijwerken](2026-11-02-2242-website-dependency-update.md).
+- [2026-11-06 20:21 — Lexerupdates voorbereiden voor PR en merge](2026-11-06-2021-lexer-pr.md).
 
 Dit is alleen navigatie. Tijdtotalen en uitgevoerde activiteiten staan in [het officiële logboek](../../../logboek.md). Tussenstanden in eerdere sessies kunnen door latere gebruikersverduidelijkingen zijn achterhaald.
