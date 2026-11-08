@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/lexer/lexer/Cargo.toml">
+      <package file="$PROJECT_DIR$/lexer/lexer">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c0cc1378-7523-4fe6-b8b8-2077237aaa4c" name="Changes" comment="Voorbeeld lexen en push">
+      <change beforePath="$PROJECT_DIR$/lexer/lexer/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/lexer/lexer/src/main.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="QpGJOjQq" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="2.0532064879252827" />
+      <entry key="MS500" value="4.821429220063564" />
+      <entry key="S2" value="6.929954341689195" />
+      <entry key="S5" value="7.542940014704636" />
+      <entry key="S10" value="7.780931013668685" />
+      <entry key="S30" value="9.264439477647432" />
+      <entry key="S60" value="13.700167826309753" />
+      <entry key="M2" value="23.325354866107926" />
+      <entry key="M5" value="56.27285697442482" />
+      <entry key="M10" value="119.60723171945796" />
+      <entry key="M15" value="171.7405356385508" />
+      <entry key="M30" value="266.0926519441197" />
+      <entry key="H1" value="355.4557272546221" />
+      <entry key="H2" value="439.081770213857" />
+      <entry key="H4" value="506.49879637026663" />
+      <entry key="D1" value="587.1175858884313" />
+      <entry key="W1" value="604.0687427461413" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="6.688615048138481E-122" />
+      <entry key="S60" value="3.65665752812041E-61" />
+      <entry key="M2" value="8.551305634594707E-31" />
+      <entry key="M5" value="1.423721479846917E-12" />
+      <entry key="M10" value="1.687432960400279E-6" />
+      <entry key="M15" value="1.7857779825653273E-4" />
+      <entry key="M30" value="0.018898555919397406" />
+      <entry key="H1" value="0.19441478096760348" />
+      <entry key="H2" value="0.6235619854045045" />
+      <entry key="H4" value="1.1167470442993985" />
+      <entry key="D1" value="1.814892049355834" />
+      <entry key="W1" value="1.9724427014287966" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.9839522668839673" />
+      <entry key="MS500" value="4.789742827089375" />
+      <entry key="S2" value="6.918567648185129" />
+      <entry key="S5" value="7.537977448943276" />
+      <entry key="S10" value="7.778370314756452" />
+      <entry key="S30" value="9.261861832570139" />
+      <entry key="S60" value="13.688947841070519" />
+      <entry key="M2" value="23.303697754054127" />
+      <entry key="M5" value="56.2450664402189" />
+      <entry key="M10" value="119.57723051007972" />
+      <entry key="M15" value="171.7119840987852" />
+      <entry key="M30" value="266.08857441859544" />
+      <entry key="H1" value="355.6333675214217" />
+      <entry key="H2" value="439.693918004521" />
+      <entry key="H4" value="507.6085188859705" />
+      <entry key="D1" value="588.931036626326" />
+      <entry key="W1" value="606.0409713357942" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3LZHOg2nyzJmXDAzLBeAnZELP2G" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CidrDebugProfileConversion": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "codex/lexer-2026-11-06",
+    "last_opened_file_path": "E:/MData/projecten/N-Lang/src",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "org.rust.first.attach.projects": "true",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie"
+  }
+}]]></component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0cc1378-7523-4fe6-b8b8-2077237aaa4c" name="Changes" comment="" />
+      <created>1793654642451</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793654642451</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Voorbeeld lexen" />
+    <MESSAGE value="Voorbeeld lexen en push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Voorbeeld lexen en push" />
+  </component>
+</project>
