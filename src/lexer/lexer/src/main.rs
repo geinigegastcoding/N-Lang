@@ -60,7 +60,7 @@ fn main() {
 
         source.push_str(&line);
     }
-
+    let source = source.replace("\r\n", "\n");
     match lex(&source) {
         Ok(tokens) => println!("{tokens:#?}"),
         Err(error) => eprintln!("Lexer error: {error:?}"),
@@ -69,7 +69,7 @@ fn main() {
 
 
 fn is_operator(chars: char) -> bool{
-    matches!(chars, '=' | '!'| '$' | '%' | '^' | '&' | '*' | '(' | ')' | '-' | '+' | '[' | ']' | '{' | '}' | '|' | ';' | ':' | '"' | '\'' | ',' | '<' | '.' | '>'| '?' | '/' )}
+    matches!(chars, '=' | '!'| '$' | '%' | '^' | '&' | '*' | '(' | ')' | '-' | '+' | '[' | ']' | '{' | '}' | '|' | ';' | ':' | '"' | '\'' | ',' | '<' | '.' | '>'| '?' | '/'  | '\n' | '\t')}
 fn lex(source: &str) -> Result<Vec<Token>, LexerError> {
     let mut tokens: Vec<Token> = Vec::new();
     let mut chars = source.chars().peekable();
@@ -165,6 +165,10 @@ fn lex(source: &str) -> Result<Vec<Token>, LexerError> {
 
 
             if is_operator(c) {
+                if c == '\n' {
+                    regel += 1
+                }
+                }
                 let token = match c {
                     '=' => Token::Gelijk,
                     '!' => Token::Niet,
@@ -183,6 +187,7 @@ fn lex(source: &str) -> Result<Vec<Token>, LexerError> {
                     ']' => Token::VierkantHaakjeDicht,
                     '<' => Token::Kleiner,
                     '>' => Token::Groter,
+                    '\t' => Token::Inspring,
                     _ => return Err(LexerError::UnexpectedCharacter(c)),
 
 
@@ -195,4 +200,4 @@ fn lex(source: &str) -> Result<Vec<Token>, LexerError> {
             }
 
         }
-    }
+
